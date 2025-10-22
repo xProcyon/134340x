@@ -102,7 +102,9 @@
       "field": "2025-10-20 21:25:16 +0000",
       "seasonal_forest": "2025-10-20 04:39:19 +0000",
       "mediterranean_forest": "2025-10-20 05:10:02 +0000",
+      "auroral_garden": "2025-10-20 21:47:41 +0000",
       "crag": "2025-10-20 04:58:01 +0000",
+      "snowy_maple_woods": "2025-10-20 21:48:13 +0000",
       "coniferous_forest": "2025-10-20 21:01:16 +0000",
       "pasture": "2025-10-20 21:00:14 +0000"
     },
@@ -14921,6 +14923,8 @@
       "minecraft:snowy_plains": "2025-10-20 21:23:13 +0000",
       "minecraft:snowy_taiga": "2025-10-20 21:26:52 +0000",
       "minecraft:frozen_ocean": "2025-10-20 21:21:32 +0000",
+      "minecraft:frozen_river": "2025-10-20 21:45:30 +0000",
+      "minecraft:deep_dark": "2025-10-21 01:32:35 +0000",
       "minecraft:cherry_grove": "2025-10-20 04:54:41 +0000",
       "minecraft:meadow": "2025-10-20 04:57:55 +0000",
       "minecraft:savanna": "2025-10-20 05:10:38 +0000",
@@ -14962,6 +14966,7 @@
       "minecraft:spider": "2025-10-20 05:14:54 +0000",
       "minecraft:vex": "2025-10-20 21:07:29 +0000",
       "minecraft:zombie": "2025-10-20 04:45:06 +0000",
+      "minecraft:creeper": "2025-10-21 01:26:44 +0000",
       "minecraft:evoker": "2025-10-20 21:08:24 +0000"
     },
     "done": false
@@ -14996,7 +15001,9 @@
       "apple": "2025-10-20 04:47:22 +0000",
       "golden_apple": "2025-10-20 04:47:38 +0000",
       "bread": "2025-10-20 04:45:44 +0000",
-      "cooked_beef": "2025-10-20 21:04:14 +0000"
+      "cooked_cod": "2025-10-22 20:50:16 +0000",
+      "cooked_beef": "2025-10-20 21:04:14 +0000",
+      "pumpkin_pie": "2025-10-22 20:46:54 +0000"
     },
     "done": false
   },
@@ -15824,15 +15831,10 @@
     },
     "done": true
   },
-  "smithed.actionbar:v0.6.4/vanilla/bed/slept_in_bed": {
-    "criteria": {
-      "requirement": "2025-10-20 05:54:48 +0000"
-    },
-    "done": true
-  },
   "enchantplus:weapons/sword/base": {
     "criteria": {
-      "xp_boost": "2025-10-20 05:58:43 +0000"
+      "xp_boost": "2025-10-20 05:58:43 +0000",
+      "critical": "2025-10-21 01:39:18 +0000"
     },
     "done": false
   },
@@ -15927,77 +15929,29 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "beautify:blinds": {
     "criteria": {
-      "log_spam_fixer": "2025-10-20 21:44:42 +0000"
+      "requirement": "2025-10-20 21:39:03 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_player_hurt": {
+  "beautify:trellis": {
     "criteria": {
-      "log_spam_fixer": "2025-10-20 21:44:42 +0000"
+      "requirement": "2025-10-20 21:39:03 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_kill": {
+  "darkrpg:painting": {
     "criteria": {
-      "log_spam_fixer": "2025-10-20 21:44:42 +0000"
+      "darkrpg_painting": "2025-10-20 21:43:42 +0000"
     },
-    "done": false
+    "done": true
   },
-  "incendium:technical/on_inventory_change": {
+  "minecraft:adventure/totem_of_undying": {
     "criteria": {
-      "log_spam_fixer": "2025-10-20 21:44:42 +0000"
+      "used_totem": "2025-10-20 21:43:43 +0000"
     },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-10-20 21:44:42 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2025-10-20 21:44:42 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-10-20 21:44:42 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-10-20 21:44:42 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-10-20 21:44:42 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-10-20 21:44:42 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-10-20 21:44:42 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2025-10-20 21:44:42 +0000"
-    },
-    "done": false
+    "done": true
   },
   "ancient_artifacts:main/open_chest": {
     "criteria": {
@@ -16008,21 +15962,10 @@
   "ancient_artifacts:main/open_50_chests": {
     "criteria": {
       "1": "2025-10-20 21:44:22 +0000",
-      "2": "2025-10-20 21:44:26 +0000"
+      "2": "2025-10-20 21:44:26 +0000",
+      "3": "2025-10-21 01:20:34 +0000"
     },
     "done": false
-  },
-  "minecraft:adventure/totem_of_undying": {
-    "criteria": {
-      "used_totem": "2025-10-20 21:43:43 +0000"
-    },
-    "done": true
-  },
-  "beautify:blinds": {
-    "criteria": {
-      "requirement": "2025-10-20 21:39:03 +0000"
-    },
-    "done": true
   },
   "minecraft:adventure/salvage_sherd": {
     "criteria": {
@@ -16030,17 +15973,168 @@
     },
     "done": false
   },
-  "darkrpg:painting": {
+  "darkrpg:dirt": {
     "criteria": {
-      "darkrpg_painting": "2025-10-20 21:43:42 +0000"
+      "darkrpg_dirt": "2025-10-21 01:06:38 +0000"
     },
     "done": true
   },
-  "beautify:trellis": {
+  "enchantplus:root": {
     "criteria": {
-      "requirement": "2025-10-20 21:39:03 +0000"
+      "requirement": "2025-10-21 01:15:20 +0000"
     },
     "done": true
+  },
+  "darkrpg:bookshelf": {
+    "criteria": {
+      "darkrpg_bookshelf": "2025-10-21 01:15:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2025-10-21 01:16:56 +0000"
+    },
+    "done": true
+  },
+  "enchantplus:weapons/sword/critical": {
+    "criteria": {
+      "requirement": "2025-10-21 01:39:18 +0000"
+    },
+    "done": true
+  },
+  "darkrpg:wooden_hoe": {
+    "criteria": {
+      "darkrpg_wooden_hoe": "2025-10-22 02:07:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2025-10-22 02:56:26 +0000"
+    },
+    "done": true
+  },
+  "darkrpg:ender_chest": {
+    "criteria": {
+      "darkrpg_ender_chest": "2025-10-22 02:58:07 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/plant_all_crops": {
+    "criteria": {
+      "glow_berries": "2025-10-22 03:02:53 +0000",
+      "red_mushroom": "2025-10-22 03:10:35 +0000"
+    },
+    "done": false
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-10-22 03:03:01 +0000"
+    },
+    "done": true
+  },
+  "darkrpg:obsidian": {
+    "criteria": {
+      "darkrpg_obsidian": "2025-10-22 03:03:01 +0000"
+    },
+    "done": true
+  },
+  "darkrpg:pink_bed": {
+    "criteria": {
+      "darkrpg_pink_bed": "2025-10-22 03:11:24 +0000"
+    },
+    "done": true
+  },
+  "smithed.actionbar:v0.6.4/vanilla/bed/slept_in_bed": {
+    "criteria": {
+      "requirement": "2025-10-22 20:38:40 +0000"
+    },
+    "done": true
+  },
+  "darkrpg:stone": {
+    "criteria": {
+      "darkrpg_stone": "2025-10-22 20:44:47 +0000"
+    },
+    "done": true
+  },
+  "darkrpg:sticks": {
+    "criteria": {
+      "darkrpg_stick": "2025-10-22 20:47:29 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-10-22 22:24:24 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2025-10-22 22:24:24 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2025-10-22 22:24:24 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2025-10-22 22:24:24 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-10-22 22:24:24 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2025-10-22 22:24:24 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-10-22 22:24:24 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-10-22 22:24:24 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-10-22 22:24:24 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-10-22 22:24:24 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-10-22 22:24:24 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2025-10-22 22:24:24 +0000"
+    },
+    "done": false
   },
   "DataVersion": 4554
 }

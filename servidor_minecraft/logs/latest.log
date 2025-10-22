@@ -1,18 +1,20 @@
-[20:57:30] [main/INFO]: Loading Minecraft 1.21.9 with Fabric Loader 0.17.3
-[20:57:31] [ForkJoinPool-1-worker-1/WARN]: Mod moredelight uses the version 25.07.28a-1.21.7-fabric which isn't compatible with Loader's extended semantic version format (Could not parse version number component '28a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[20:57:33] [ForkJoinPool-1-worker-1/WARN]: Mod mr_ancient_artifacts2 uses the version 2.5.3a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '3a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[20:57:34] [ForkJoinPool-1-worker-2/WARN]: The mod "resourceconfigapi" contains invalid entries in its mod json:
+[22:08:35] [main/INFO]: Loading Minecraft 1.21.9 with Fabric Loader 0.17.3
+[22:08:35] [ForkJoinPool-1-worker-2/WARN]: Mod moredelight uses the version 25.07.28a-1.21.7-fabric which isn't compatible with Loader's extended semantic version format (Could not parse version number component '28a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[22:08:35] [ForkJoinPool-1-worker-2/WARN]: Mod mr_ancient_artifacts2 uses the version 2.5.3a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '3a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[22:08:35] [ForkJoinPool-1-worker-4/WARN]: The mod "resourceconfigapi" contains invalid entries in its mod json:
 - Unsupported root entry "accesswidener" at line 16 column 20
-[20:57:35] [main/WARN]: Warnings were found!
+[22:08:36] [main/WARN]: Warnings were found!
  - Mod 'Forge Config API Port' (forgeconfigapiport) 21.9.8 recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
  - Mod 'Inventory Sorter' (inventorysorter) 2.1.0 recommends version 16.0.0-rc.1 or later of modmenu, which is missing!
 	 - You should install version 16.0.0-rc.1 or later of modmenu for the optimal experience.
-[20:57:35] [main/INFO]: Loading 186 mods:
+[22:08:36] [main/INFO]: Loading 189 mods:
 	- adorabuild_structures 2.10.1
+	- amber 7.0.1+1.21.9
 	- appleskin 3.0.7+mc1.21.9
 	- architectury 18.0.5
 	- asr 3.0.0
+	- attributefix 21.9.2
 	- balm 21.9.4
 	   \-- kuma_api 21.9.6
 	- beautify 1.7.0+1.21.9
@@ -131,6 +133,7 @@
 	        \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
 	- jade 20.0.5+fabric
 	- java 21
+	- liteminer 1.3.0+1.21.9
 	- lithium 0.19.2+mc1.21.9
 	- lithostitched 1.5.1
 	- medieval_buildings 1.1.2
@@ -206,795 +209,217 @@
 	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
 	   |-- org_quiltmc_parsers_gson 0.2.1
 	   \-- org_quiltmc_parsers_json 0.2.1
-[20:57:36] [main/WARN]: launchTarget: SERVER. Crash Assistant is client only mod. Mod will do nothing!
-[20:57:36] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/codespaces-blank/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[20:57:36] [main/INFO]: Compatibility level set to JAVA_21
-[20:57:37] [main/WARN]: Reference map 'eternalnether.fabric.refmap.json' for eternalnether.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[20:57:37] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[20:57:37] [main/WARN]: Reference map 'forgeconfigapiport.fabric.refmap.json' for forgeconfigapiport.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[20:57:37] [main/WARN]: Reference map 'illagerinvasion.fabric.refmap.json' for illagerinvasion.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[20:57:37] [main/WARN]: Reference map 'iteminteractions.fabric.refmap.json' for iteminteractions.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[20:57:37] [main/INFO]: Loaded configuration file for Lithium: 163 options available, 0 override(s) found.
-[20:57:37] [main/WARN]: Reference map 'mixins.medieval_buildings.refmap.fabric.json' for mixins.medieval_buildings.fabric.json could not be read. If this is a development environment you can ignore this message
-[20:57:37] [main/WARN]: Reference map 'mixins.medieval_nether.refmap.fabric.json' for mixins.medieval_nether.fabric.json could not be read. If this is a development environment you can ignore this message
-[20:57:37] [main/WARN]: Reference map 'metalbundles.common.refmap.json' for metalbundles.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[20:57:37] [main/WARN]: Reference map 'metalbundles.fabric.refmap.json' for metalbundles.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[20:57:37] [main/WARN]: Reference map 'neoforgedatapackextensions.common.refmap.json' for neoforgedatapackextensions.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[20:57:37] [main/WARN]: Reference map 'prickle.refmap.json' for prickle.mixins.json could not be read. If this is a development environment you can ignore this message
-[20:57:37] [main/WARN]: Reference map 'prickle.refmap.json' for prickle.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[20:57:37] [main/WARN]: Reference map 'tradingpost.fabric.refmap.json' for tradingpost.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[20:57:37] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
-[20:57:37] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[20:57:38] [main/WARN]: Error loading class: net/minecraft/class_757 (java.lang.ClassNotFoundException: net/minecraft/class_757)
-[20:57:38] [main/WARN]: @Mixin target net.minecraft.class_757 was not found creativecore.fabric.mixins.json:GameRendererMixin from mod creativecore
-[20:57:38] [main/WARN]: Error loading class: net/minecraft/class_9934 (java.lang.ClassNotFoundException: net/minecraft/class_9934)
-[20:57:38] [main/WARN]: @Mixin target net.minecraft.class_9934 was not found farmersdelight.mixins.json:refabricated.GhostSlotsInvoker from mod farmersdelight
-[20:57:38] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
-[20:57:38] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[20:57:45] [main/INFO]: Initializing Asgard Shield Reloaded
-[20:57:46] [main/INFO]: Biolith for Fabric is initializing...
-[20:57:46] [main/INFO]: Enabling Biolith's TerraBlender compatibility layer.
-[20:57:46] [main/INFO]: Constructing components for eternalnether:common
-[20:57:47] [main/INFO]: Loaded config farmersdelight-common.json
-[20:57:47] [main/INFO]: Constructing components for fastitemframes:common
-[20:57:47] [main/INFO]: Initialized Frostiful!
-[20:57:48] [main/INFO]: Constructing components for illagerinvasion:common
-[20:57:48] [main/INFO]: Constructing components for iteminteractions:common
-[20:57:48] [main/INFO]: Constructing components for metalbundles:common
-[20:57:48] [main/INFO]: Definitely not up to no good
-[20:57:49] [main/INFO]: it seems to react to redstone
-[20:57:49] [main/WARN]: Version checker is not available.
-[20:57:49] [main/INFO]: Constructing components for puzzleslib:common
-[20:57:49] [main/INFO]: Config 'appearance.json' from type 'CLIENT' was skipped.
-[20:57:49] [main/INFO]: [ServerCore] Loaded V1.5.14+1.21.9!
-[20:57:50] [main/INFO]: New compacting rule 4 minecraft:clay_ball = 1 minecraft:clay
-[20:57:50] [main/INFO]: New compacting rule 4 minecraft:snowball = 1 minecraft:snow_block
-[20:57:50] [main/INFO]: New compacting rule 4 minecraft:glowstone_dust = 1 minecraft:glowstone
-[20:57:50] [main/INFO]: New compacting rule 4 minecraft:brick = 1 minecraft:bricks
-[20:57:50] [main/INFO]: New compacting rule 4 minecraft:nether_brick = 1 minecraft:nether_bricks
-[20:57:50] [main/INFO]: New compacting rule 9 minecraft:nether_wart = 1 minecraft:nether_wart_block
-[20:57:50] [main/INFO]: New compacting rule 4 minecraft:quartz = 1 minecraft:quartz_block
-[20:57:50] [main/INFO]: New compacting rule 9 minecraft:melon_slice = 1 minecraft:melon
-[20:57:50] [main/INFO]: New compacting rule 9 minecraft:bamboo = 1 minecraft:bamboo_block
-[20:57:50] [main/INFO]: New compacting rule 4 minecraft:clay_ball = 1 minecraft:clay
-[20:57:50] [main/INFO]: New denied storage item storagedrawers:creative_vending_upgrade
-[20:57:50] [main/INFO]: Adding ore conversions for types: c:storage_blocks, c:ingots, c:nuggets
-[20:57:50] [main/INFO]: Adding ore conversions for materials: aluminum, constantan, steel, uranium, invar, tin, lead, silver, platinum, nickel, osmium, bronze, electrum
-[20:57:50] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[20:57:50] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
-[20:57:50] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
-[20:57:50] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
-[20:57:50] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
-[20:57:50] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
-[20:57:50] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
-[20:57:50] [main/INFO]: Thermoo initialized
-[20:57:50] [main/INFO]: Constructing components for tradingpost:common
-[20:57:50] [main/INFO]: Registering Items for weaponsexpanded
-[20:57:50] [main/INFO]: Registering enchantment effects for weaponsexpanded
-[20:57:50] [main/INFO]: Registering Effects forweaponsexpanded
-[20:57:50] [main/INFO]: Download MuseSwipr on Steam!
-[20:57:50] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[20:57:50] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
-[20:57:50] [main/ERROR]: Couldn't load mr_lukis_ancientcities pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
-[20:57:50] [main/ERROR]: Couldn't load mr_lukis_crazychambers pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
-[20:57:50] [main/ERROR]: Couldn't load mr_lukis_grandcapitals pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
-[20:57:50] [main/ERROR]: Couldn't load mr_lukis_ancientcities pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
-[20:57:50] [main/ERROR]: Couldn't load mr_lukis_crazychambers pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
-[20:57:50] [main/ERROR]: Couldn't load mr_lukis_grandcapitals pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
-[20:57:50] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[20:57:50] [main/ERROR]: Couldn't load mr_lukis_ancientcities pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
-[20:57:50] [main/ERROR]: Couldn't load mr_lukis_crazychambers pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
-[20:57:50] [main/ERROR]: Couldn't load mr_lukis_grandcapitals pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
-[20:57:53] [Worker-Main-3/ERROR]: Couldn't parse data file 'mvs:cathedral_common' from 'mvs:loot_table/cathedral_common.json': DataResult.Error['Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain': net.minecraft.class_52@7a1b231a]
-[20:57:53] [Worker-Main-3/ERROR]: Couldn't parse data file 'mvs:cathedral_rare' from 'mvs:loot_table/cathedral_rare.json': DataResult.Error['Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain': net.minecraft.class_52@2edcbd04]
-[20:57:54] [Worker-Main-2/ERROR]: Couldn't parse data file 'biomesoplenty:dead_hanging_sign' from 'biomesoplenty:recipe/dead_hanging_sign.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "minecraft:chain"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
-[20:57:55] [Worker-Main-2/ERROR]: Couldn't parse data file 'biomesoplenty:empyreal_hanging_sign' from 'biomesoplenty:recipe/empyreal_hanging_sign.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "minecraft:chain"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
-[20:57:55] [Worker-Main-2/ERROR]: Couldn't parse data file 'biomesoplenty:fir_hanging_sign' from 'biomesoplenty:recipe/fir_hanging_sign.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "minecraft:chain"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
-[20:57:55] [Worker-Main-2/ERROR]: Couldn't parse data file 'biomesoplenty:hellbark_hanging_sign' from 'biomesoplenty:recipe/hellbark_hanging_sign.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "minecraft:chain"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
-[20:57:55] [Worker-Main-2/ERROR]: Couldn't parse data file 'biomesoplenty:jacaranda_hanging_sign' from 'biomesoplenty:recipe/jacaranda_hanging_sign.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "minecraft:chain"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
-[20:57:55] [Worker-Main-2/ERROR]: Couldn't parse data file 'biomesoplenty:magic_hanging_sign' from 'biomesoplenty:recipe/magic_hanging_sign.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "minecraft:chain"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
-[20:57:55] [Worker-Main-2/ERROR]: Couldn't parse data file 'biomesoplenty:mahogany_hanging_sign' from 'biomesoplenty:recipe/mahogany_hanging_sign.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "minecraft:chain"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
-[20:57:55] [Worker-Main-2/ERROR]: Couldn't parse data file 'biomesoplenty:maple_hanging_sign' from 'biomesoplenty:recipe/maple_hanging_sign.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "minecraft:chain"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
-[20:57:55] [Worker-Main-2/ERROR]: Couldn't parse data file 'biomesoplenty:origin_oak_hanging_sign' from 'biomesoplenty:recipe/origin_oak_hanging_sign.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "minecraft:chain"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
-[20:57:55] [Worker-Main-2/ERROR]: Couldn't parse data file 'biomesoplenty:palm_hanging_sign' from 'biomesoplenty:recipe/palm_hanging_sign.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "minecraft:chain"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
-[20:57:55] [Worker-Main-2/ERROR]: Couldn't parse data file 'biomesoplenty:pine_hanging_sign' from 'biomesoplenty:recipe/pine_hanging_sign.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "minecraft:chain"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
-[20:57:55] [Worker-Main-2/ERROR]: Couldn't parse data file 'biomesoplenty:redwood_hanging_sign' from 'biomesoplenty:recipe/redwood_hanging_sign.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "minecraft:chain"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
-[20:57:55] [Worker-Main-2/ERROR]: Couldn't parse data file 'biomesoplenty:umbran_hanging_sign' from 'biomesoplenty:recipe/umbran_hanging_sign.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "minecraft:chain"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
-[20:57:55] [Worker-Main-2/ERROR]: Couldn't parse data file 'biomesoplenty:willow_hanging_sign' from 'biomesoplenty:recipe/willow_hanging_sign.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "minecraft:chain"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
-[20:57:55] [Worker-Main-2/WARN]: Found data map file for non-existent data map type 'neoforge:compostables' on registry 'minecraft:item'.
-[20:57:55] [Worker-Main-2/WARN]: Found data map file for non-existent data map type 'neoforge:furnace_fuels' on registry 'minecraft:item'.
-[20:57:56] [main/INFO]: Loaded 2893 recipes
-[20:57:56] [main/INFO]: Loaded 3482 advancements
-[20:57:56] [main/INFO]: Clearing Entity Type to Temperature Effect cache
-[20:57:56] [main/INFO]: Loaded 4 temperature effects
-[20:57:56] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 87 translation keys
-[20:57:57] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[20:57:57] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[20:57:57] [main/INFO]: Applied 1444 biome modifications to 148 of 151 new biomes in 46.09 ms
-[20:57:57] [Server thread/INFO]: Dispatching loading event for config illagerinvasion-server.toml
-[20:57:57] [Server thread/INFO]: Dispatching loading event for config iteminteractions-server.toml
-[20:57:57] [Server thread/INFO]: Dispatching loading event for config metalbundles-server.toml
-[20:57:57] [Server thread/INFO]: Dispatching loading event for config tradingpost-server.toml
-[20:57:57] [Server thread/INFO]: Config 'explorations.json' was successfully loaded.
-[20:57:57] [Server thread/INFO]: Added statues to vanilla villages
-[20:57:57] [Server thread/INFO]: Starting background profiler...
-[20:57:58] [Server thread/INFO]: Invalidated damage temperature effect registry cache
-[20:57:58] [Server thread/INFO]: Starting minecraft server version 1.21.9
-[20:57:58] [Server thread/INFO]: Loading properties
-[20:57:58] [Server thread/INFO]: Default game type: SURVIVAL
-[20:57:58] [Server thread/INFO]: Generating keypair
-[20:57:58] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:57:58] [Server thread/INFO]: Using epoll channel type
-[20:57:58] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:57:58] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:57:58] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:57:58] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:57:58] [Server thread/INFO]: Preparing level "world"
-[20:57:59] [Server thread/INFO]: Ignoring world 'yggdrasil:ginnungagap'; unknown dimension type: yggdrasil:ginnungagap
-[20:57:59] [Server thread/INFO]: Loading 25 persistent chunks...
-[20:57:59] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:00] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:00] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:01] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:01] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:02] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:02] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:03] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:03] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:04] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:04] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:05] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:05] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:06] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:06] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:07] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:07] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:08] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:08] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:09] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:09] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:10] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:10] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:11] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:11] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:12] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:12] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:13] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:13] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:14] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:14] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:15] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:15] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:16] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:16] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:17] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:17] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:18] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:18] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:19] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:19] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:20] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:20] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:21] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:21] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:22] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:22] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:23] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:23] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:24] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:24] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:25] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:25] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:26] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:26] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:27] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:27] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:28] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:28] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:29] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:29] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:31] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:31] [Server thread/INFO]: Preparing spawn area: 28%
-[20:58:31] [Server thread/INFO]: Time elapsed: 31491 ms
-[20:58:31] [Server thread/INFO]: Done (32.814s)! For help, type "help"
-[20:58:31] [Server thread/INFO]: Start loading plugin from Balm: net.blay09.mods.balm.fabric.compat.hudinfo.FabricJadeModCompat
-[20:58:31] [Server thread/INFO]: Start loading plugin from Beautify: io.github.suel_ki.beautify.compat.jade.JadePlugin
-[20:58:31] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
-[20:58:31] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
-[20:58:31] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
-[20:58:31] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
-[20:58:31] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
-[20:58:31] [Server thread/INFO]: Start loading plugin from Waystones: net.blay09.mods.waystones.compat.JadeIntegration
-[20:58:31] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[20:58:31] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
-[20:58:58] [Server thread/INFO]: Mvpvxe[/127.253.138.50:49729] logged in with entity id 57 at (425.4474483366179, 103.0, -1669.2635586596377)
-[20:58:58] [Server thread/INFO]: Syncing Server Configs with Client
-[20:58:58] [Server thread/INFO]: Sending data for Config 'resource_backpacks:common/backpacks'
-[20:58:58] [Server thread/INFO]: Sending data for Config 'resource_backpacks:common/chest_loot'
-[20:58:58] [Server thread/INFO]: Sending data for Config 'resource_backpacks:common/entity_config'
-[20:58:58] [Server thread/INFO]: Mvpvxe joined the game
-[20:59:01] [Server thread/INFO]: [ShulkerBoxTooltip] Mvpvxe: protocol version: 2.0
-[20:59:01] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Loading 1 plugin: shulkerboxtooltip
-[20:59:01] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 51 providers for mod shulkerboxtooltip
-[20:59:37] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-327, y=59, z=-34}
-[20:59:37] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-326, y=59, z=-34}
-[20:59:37] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-325, y=59, z=-33}
-[20:59:37] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-325, y=59, z=-32}
-[21:00:54] [Server thread/INFO]: Villager class_1646['Toolsmith'/628, l='ServerLevel[world]', x=669.30, y=39.05, z=-1553.30] died, message: 'Toolsmith drowned'
-[21:03:55] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-325, y=59, z=-33}
-[21:03:55] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-325, y=59, z=-32}
-[21:03:55] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-325, y=59, z=-33}
-[21:03:55] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-325, y=59, z=-32}
-[21:04:02] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-327, y=59, z=-34}
-[21:04:02] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-326, y=59, z=-34}
-[21:04:02] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-327, y=59, z=-34}
-[21:04:02] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-326, y=59, z=-34}
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: crazy_chambers:spawner/breeze_spawner
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:03] [Worker-Main-2/WARN]: Couldn't find template pool reference: minecraft:south
-[21:04:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3952ms or 79 ticks behind
-[21:04:28] [Server thread/INFO]: Mvpvxe was slain by Vindicator
-[21:04:52] [Server thread/INFO]: [Mvpvxe: Set own game mode to Spectator Mode]
-[21:05:20] [Server thread/INFO]: [Mvpvxe: Set own game mode to Survival Mode]
-[21:05:34] [Server thread/INFO]: Mvpvxe was slain by Vindicator
-[21:05:42] [Server thread/INFO]: [Mvpvxe: Teleported Mvpvxe to 672.500000, 64.500000, -1268.500000]
-[21:07:54] [Server thread/INFO]: Mvpvxe has made the advancement [Take Aim]
-[21:18:20] [Server thread/INFO]: Mvpvxe has completed the challenge [Ender's End (Quest)]
-[21:18:38] [Server thread/INFO]: [Mvpvxe: Set own game mode to Spectator Mode]
-[21:19:13] [Server thread/INFO]: [Mvpvxe: Set own game mode to Survival Mode]
-[21:19:22] [Server thread/INFO]: Mvpvxe has completed the challenge [Fishes (Quest)]
-[21:21:56] [Worker-Main-3/WARN]: [net.minecraft.class_3499] Serialization errors:
-: Failed to decode value '[{base:0.0d,id:"forge:step_height_addition"},{base:0.0d,id:"minecraft:armor_toughness"},{base:0.699999988079071d,id:"minecraft:movement_speed"},{base:0.0d,id:"minecraft:armor"},{base:0.08d,id:"forge:entity_gravity"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: forge:entity_gravity; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: forge:step_height_addition
-[21:22:06] [Server thread/INFO]: [Mvpvxe: Set own game mode to Spectator Mode]
-[21:22:16] [Server thread/INFO]: [Mvpvxe: Set own game mode to Survival Mode]
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: crazy_chambers:melee_spawner
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: crazy_chambers:spawner/breeze_spawner
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: crazy_chambers:spawner/breeze_spawner
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: crazy_chambers:melee_spawner
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: crazy_chambers:melee_spawner
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:22:57] [Worker-Main-1/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:17] [Worker-Main-2/ERROR]: Couldn't load structure mvs:houses/warped_house
-net.minecraft.class_8911: Loading NBT data
-	at knot/net.minecraft.class_2487.method_10581(class_2487.java:509) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2487$1.method_53889(class_2487.java:82) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2487$1.method_23240(class_2487.java:69) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2487$1.method_23262(class_2487.java:64) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2499$1.method_53895(class_2499.java:51) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2499$1.method_23249(class_2499.java:34) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2499$1.method_23262(class_2499.java:29) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2487.method_10581(class_2487.java:503) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2487$1.method_53889(class_2487.java:82) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2487$1.method_23240(class_2487.java:69) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2487$1.method_23262(class_2487.java:64) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2507.method_52892(class_2507.java:193) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2507.method_10626(class_2507.java:188) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2507.method_10625(class_2507.java:112) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2507.method_10629(class_2507.java:52) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3485.method_15090(class_3485.java:240) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3485.method_44231(class_3485.java:230) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3485.method_15088(class_3485.java:135) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3485.method_44245(class_3485.java:113) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708) ~[?:?]
-	at knot/net.minecraft.class_3485.method_15094(class_3485.java:103) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3485.method_15091(class_3485.java:91) ~[server-intermediary.jar:?]
-	at knot/com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-8.0.16.jar:?]
-	at knot/net.minecraft.class_3781.method_27233(class_3781.java:93) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3781.method_16628(class_3781.java:132) ~[server-intermediary.jar:?]
-	at knot/com.finndog.moogs_structures.world.structures.pieces.PieceLimitedJigsawManager.assembleJigsawStructure(PieceLimitedJigsawManager.java:99) ~[moogs_structure_lib-1.0.2-1.21.5-1.21.10-fabric.jar:?]
-	at knot/com.finndog.moogs_structures.world.structures.GenericJigsawStructure.method_38676(GenericJigsawStructure.java:213) ~[moogs_structure_lib-1.0.2-1.21.5-1.21.10-fabric.jar:?]
-	at knot/net.minecraft.class_3195.method_47932(class_3195.java:252) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3195.method_41614(class_3195.java:166) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2794.method_41044(class_2794.java:517) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2794.method_41041(class_2794.java:470) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at knot/net.minecraft.class_2794.method_16129(class_2794.java:452) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_9310.method_57601(class_9310.java:41) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_9770.method_60560(class_9770.java:33) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3898.method_60442(class_3898.java:663) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_9761.method_60461(class_9761.java:101) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_9759.method_60428(class_9759.java:148) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_9759.method_60427(class_9759.java:125) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_9759.method_60432(class_9759.java:76) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_9759.method_60424(class_9759.java:61) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3898.method_60446(class_3898.java:695) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_10171.method_63554(class_10171.java:88) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_10178.method_63604(class_10178.java:21) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_156.method_64122(class_156.java:295) [server-intermediary.jar:?]
-	at knot/net.minecraft.class_10174.method_63592(class_10174.java:50) [server-intermediary.jar:?]
-	at knot/net.minecraft.class_10174.run(class_10174.java:62) [server-intermediary.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) [?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-Caused by: java.util.zip.ZipException: Corrupt GZIP trailer
-	at java.base/java.util.zip.GZIPInputStream.readTrailer(GZIPInputStream.java:257) ~[?:?]
-	at java.base/java.util.zip.GZIPInputStream.read(GZIPInputStream.java:151) ~[?:?]
-	at knot/net.minecraft.class_6826.method_39780(class_6826.java:94) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_6826.read(class_6826.java:47) ~[server-intermediary.jar:?]
-	at java.base/java.io.DataInputStream.readFully(DataInputStream.java:208) ~[?:?]
-	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:385) ~[?:?]
-	at knot/net.minecraft.class_2497$1.method_53893(class_2497.java:41) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2497$1.method_23248(class_2497.java:31) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2497$1.method_23262(class_2497.java:28) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2499$1.method_53895(class_2499.java:51) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2499$1.method_23249(class_2499.java:34) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2499$1.method_23262(class_2499.java:29) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2487.method_10581(class_2487.java:503) ~[server-intermediary.jar:?]
-	... 52 more
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: crazy_chambers:spawner/breeze_spawner
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: crazy_chambers:melee_spawner
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: crazy_chambers:spawner/breeze_spawner
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:30] [Worker-Main-3/WARN]: Couldn't find template pool reference: minecraft:south
-[21:23:36] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-327, y=59, z=-34}
-[21:23:36] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-327, y=59, z=-34}
-[21:23:36] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-326, y=59, z=-34}
-[21:23:36] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-325, y=59, z=-33}
-[21:23:36] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-325, y=59, z=-32}
-[21:23:36] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-325, y=59, z=-32}
-[21:23:43] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-326, y=59, z=-34}
-[21:23:43] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-325, y=59, z=-33}
-[21:23:43] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-325, y=59, z=-32}
-[21:23:44] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-327, y=59, z=-34}
-[21:23:44] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-326, y=59, z=-34}
-[21:23:44] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-325, y=59, z=-33}
-[21:23:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3690ms or 73 ticks behind
-[21:23:48] [Server thread/WARN]: Mvpvxe moved too quickly! 9.795715858925632,-1.2538907259487644,-2.7691457274593176
-[21:23:55] [Server thread/WARN]: Mvpvxe moved too quickly! 9.521522085912693,0.8291870918577047,-3.1001984187671496
-[21:24:28] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=-325, y=59, z=-32}
-[21:24:28] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-327, y=59, z=-34}
-[21:24:28] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-326, y=59, z=-34}
-[21:24:28] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-325, y=59, z=-33}
-[21:24:28] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-327, y=59, z=-34}
-[21:24:28] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-326, y=59, z=-34}
-[21:24:28] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-325, y=59, z=-33}
-[21:24:28] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-325, y=59, z=-32}
-[21:25:32] [Worker-Main-2/WARN]: [net.minecraft.class_3499] Serialization errors:
-:
-  waystones:waystone // net.blay09.mods.waystones.block.entity.WaystoneBlockEntity@class_2338{x=1527, y=68, z=-1582}: Expected field 'Items' to contain value of type LIST, but got COMPOUND
-  waystones:waystone // net.blay09.mods.waystones.block.entity.WaystoneBlockEntity@class_2338{x=1527, y=69, z=-1582}: Expected field 'Items' to contain value of type LIST, but got COMPOUND
-[21:26:12] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=39, y=7, z=-55}
-[21:26:29] [Server thread/INFO]: [Mvpvxe: Set own game mode to Spectator Mode]
-[21:26:31] [Worker-Main-2/ERROR]: Block-attached entity at invalid position: class_2338{x=-162, y=-12, z=171}
-[21:26:32] [Server thread/INFO]: [Mvpvxe: Set own game mode to Survival Mode]
-[21:29:10] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=25, y=-37, z=67}
-[21:29:13] [Worker-Main-3/ERROR]: Block-attached entity at invalid position: class_2338{x=25, y=-37, z=67}
-[21:31:18] [Server thread/INFO]: Mvpvxe lost connection: Disconnected
-[21:31:18] [Server thread/INFO]: Mvpvxe left the game
-[21:32:18] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[21:35:21] [Server thread/INFO]: Mvpvxe[/127.253.138.50:38973] logged in with entity id 13792 at (1584.7857799353155, 63.0, -1481.7426640310277)
-[21:35:21] [Server thread/INFO]: Syncing Server Configs with Client
-[21:35:21] [Server thread/INFO]: Sending data for Config 'resource_backpacks:common/backpacks'
-[21:35:21] [Server thread/INFO]: Sending data for Config 'resource_backpacks:common/chest_loot'
-[21:35:21] [Server thread/INFO]: Sending data for Config 'resource_backpacks:common/entity_config'
-[21:35:21] [Server thread/INFO]: Mvpvxe joined the game
-[21:35:22] [Server thread/INFO]: [ShulkerBoxTooltip] Mvpvxe: protocol version: 2.0
-[21:35:42] [Worker-Main-5/ERROR]: Block-attached entity at invalid position: class_2338{x=25, y=-37, z=67}
-[21:39:24] [Worker-Main-5/WARN]: [net.minecraft.class_3499] Serialization errors:
-:
-  Failed to decode value '[{base:0.0d,id:"forge:step_height_addition"},{base:0.30000001192092896d,id:"minecraft:movement_speed"},{base:16.0d,id:"minecraft:follow_range",modifiers:[{amount:-0.007286213614731351d,id:"minecraft:random_spawn_bonus",operation:"add_multiplied_base"}]},{base:0.08d,id:"forge:entity_gravity"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: forge:entity_gravity; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: forge:step_height_addition
-  Failed to decode value '[{base:0.0d,id:"forge:step_height_addition"},{base:0.30000001192092896d,id:"minecraft:movement_speed"},{base:16.0d,id:"minecraft:follow_range",modifiers:[{amount:0.07900953671139221d,id:"minecraft:random_spawn_bonus",operation:"add_multiplied_base"}]},{base:0.08d,id:"forge:entity_gravity"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: forge:entity_gravity; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: forge:step_height_addition
-  Failed to decode value '[{base:0.0d,id:"forge:step_height_addition"},{base:0.30000001192092896d,id:"minecraft:movement_speed"},{base:16.0d,id:"minecraft:follow_range",modifiers:[{amount:0.02902372707558969d,id:"minecraft:random_spawn_bonus",operation:"add_multiplied_base"}]},{base:0.08d,id:"forge:entity_gravity"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: forge:entity_gravity; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: forge:step_height_addition
-  Failed to decode value '[{base:0.0d,id:"forge:step_height_addition"},{base:0.30000001192092896d,id:"minecraft:movement_speed"},{base:16.0d,id:"minecraft:follow_range",modifiers:[{amount:0.043119895003728446d,id:"minecraft:random_spawn_bonus",operation:"add_multiplied_base"}]},{base:0.08d,id:"forge:entity_gravity"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: forge:entity_gravity; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: forge:step_height_addition
-  Failed to decode value '[{base:0.0d,id:"forge:step_height_addition"},{base:0.30000001192092896d,id:"minecraft:movement_speed"},{base:16.0d,id:"minecraft:follow_range",modifiers:[{amount:0.021061728728903047d,id:"minecraft:random_spawn_bonus",operation:"add_multiplied_base"}]},{base:0.08d,id:"forge:entity_gravity"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: forge:entity_gravity; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: forge:step_height_addition
-  Failed to decode value '[{base:0.0d,id:"forge:step_height_addition"},{base:0.30000001192092896d,id:"minecraft:movement_speed"},{base:16.0d,id:"minecraft:follow_range",modifiers:[{amount:0.07184829363476755d,id:"minecraft:random_spawn_bonus",operation:"add_multiplied_base"}]},{base:0.08d,id:"forge:entity_gravity"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: forge:entity_gravity; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: forge:step_height_addition
-  Failed to decode value '[{base:0.0d,id:"forge:step_height_addition"},{base:0.30000001192092896d,id:"minecraft:movement_speed"},{base:16.0d,id:"minecraft:follow_range",modifiers:[{amount:-0.026973986189443598d,id:"minecraft:random_spawn_bonus",operation:"add_multiplied_base"}]},{base:0.08d,id:"forge:entity_gravity"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: forge:entity_gravity; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: forge:step_height_addition
-  Failed to decode value '[{base:0.0d,id:"forge:step_height_addition"},{base:0.30000001192092896d,id:"minecraft:movement_speed"},{base:16.0d,id:"minecraft:follow_range",modifiers:[{amount:-0.016451907294320986d,id:"minecraft:random_spawn_bonus",operation:"add_multiplied_base"}]},{base:0.08d,id:"forge:entity_gravity"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: forge:entity_gravity; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: forge:step_height_addition
-[21:39:51] [Worker-Main-5/ERROR]: Block-attached entity at invalid position: class_2338{x=22, y=-11, z=-129}
-[21:39:51] [Worker-Main-5/ERROR]: Block-attached entity at invalid position: class_2338{x=11, y=-12, z=-131}
-[21:39:51] [Worker-Main-5/ERROR]: Block-attached entity at invalid position: class_2338{x=21, y=-11, z=-129}
-[21:40:04] [Worker-Main-6/ERROR]: Block-attached entity at invalid position: class_2338{x=22, y=-11, z=-115}
-[21:40:04] [Worker-Main-6/ERROR]: Block-attached entity at invalid position: class_2338{x=11, y=-12, z=-116}
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: crazy_chambers:spawner/breeze_spawner
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: crazy_chambers:melee_spawner
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: crazy_chambers:melee_spawner
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: crazy_chambers:spawner/breeze_spawner
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: crazy_chambers:spawner/breeze_spawner
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:05] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:40:49] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=-327, y=59, z=-34}
-[21:40:49] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=-326, y=59, z=-34}
-[21:40:49] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=-325, y=59, z=-33}
-[21:40:49] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=-325, y=59, z=-32}
-[21:40:51] [Server thread/WARN]: Mvpvxe moved too quickly! 4.924530982288161,-1.252203340253729,8.91240381949001
-[21:41:04] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=234, y=-57, z=141}
-[21:41:07] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=-327, y=59, z=-34}
-[21:41:07] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=-326, y=59, z=-34}
-[21:41:07] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=-325, y=59, z=-33}
-[21:41:07] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=-325, y=59, z=-32}
-[21:41:10] [Worker-Main-5/WARN]: [net.minecraft.class_3499] Serialization errors:
-: Failed to decode value '[{base:0.0d,id:"forge:step_height_addition"},{base:0.30000001192092896d,id:"minecraft:movement_speed"},{base:16.0d,id:"minecraft:follow_range",modifiers:[{amount:-0.07277283046364026d,id:"minecraft:random_spawn_bonus",operation:"add_multiplied_base"}]},{base:0.08d,id:"forge:entity_gravity"}]' from field 'attributes': Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: forge:entity_gravity; Unknown registry key in ResourceKey[minecraft:root / minecraft:attribute]: forge:step_height_addition
-[21:41:13] [Worker-Main-6/ERROR]: Block-attached entity at invalid position: class_2338{x=-327, y=59, z=-34}
-[21:41:13] [Worker-Main-6/ERROR]: Block-attached entity at invalid position: class_2338{x=-326, y=59, z=-34}
-[21:41:13] [Worker-Main-6/ERROR]: Block-attached entity at invalid position: class_2338{x=-325, y=59, z=-33}
-[21:41:13] [Worker-Main-6/ERROR]: Block-attached entity at invalid position: class_2338{x=-325, y=59, z=-32}
-[21:41:15] [Worker-Main-6/ERROR]: Block-attached entity at invalid position: class_2338{x=-1158, y=177, z=-952}
-[21:41:15] [Worker-Main-6/ERROR]: Block-attached entity at invalid position: class_2338{x=-3570, y=-36, z=-1418}
-[21:41:15] [Worker-Main-6/ERROR]: Block-attached entity at invalid position: class_2338{x=-3570, y=-36, z=-1413}
-[21:41:15] [Worker-Main-6/ERROR]: Block-attached entity at invalid position: class_2338{x=-3571, y=-36, z=-1412}
-[21:41:15] [Worker-Main-6/ERROR]: Block-attached entity at invalid position: class_2338{x=-3571, y=-35, z=-1412}
-[21:41:15] [Worker-Main-6/ERROR]: Block-attached entity at invalid position: class_2338{x=-3568, y=-36, z=-1412}
-[21:41:20] [Worker-Main-6/ERROR]: Block-attached entity at invalid position: class_2338{x=-3577, y=-17, z=-1413}
-[21:41:21] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=-3669, y=-14, z=456}
-[21:41:21] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=-3662, y=-16, z=459}
-[21:41:25] [Worker-Main-6/ERROR]: Block-attached entity at invalid position: class_2338{x=-3662, y=-16, z=459}
-[21:41:25] [Worker-Main-6/ERROR]: Block-attached entity at invalid position: class_2338{x=-3669, y=-14, z=456}
-[21:41:32] [Worker-Main-6/ERROR]: Block-attached entity at invalid position: class_2338{x=-3663, y=-33, z=451}
-[21:41:32] [Worker-Main-6/ERROR]: Block-attached entity at invalid position: class_2338{x=-3669, y=-34, z=450}
-[21:41:32] [Worker-Main-6/ERROR]: Block-attached entity at invalid position: class_2338{x=-3669, y=-14, z=450}
-[21:41:32] [Worker-Main-6/ERROR]: Block-attached entity at invalid position: class_2338{x=-3669, y=-34, z=450}
-[21:41:32] [Worker-Main-6/ERROR]: Block-attached entity at invalid position: class_2338{x=-3669, y=-14, z=450}
-[21:41:32] [Worker-Main-6/ERROR]: Block-attached entity at invalid position: class_2338{x=-3663, y=-33, z=451}
-[21:41:32] [Worker-Main-6/ERROR]: Block-attached entity at invalid position: class_2338{x=-1158, y=177, z=-952}
-[21:41:32] [Worker-Main-5/ERROR]: Block-attached entity at invalid position: class_2338{x=-1158, y=177, z=-952}
-[21:41:51] [Worker-Main-5/ERROR]: Block-attached entity at invalid position: class_2338{x=-1158, y=177, z=-952}
-[21:41:51] [Worker-Main-5/ERROR]: Block-attached entity at invalid position: class_2338{x=-1158, y=177, z=-952}
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: crazy_chambers:melee_spawner
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: crazy_chambers:spawner/breeze_spawner
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:10] [Worker-Main-4/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: crazy_chambers:spawner/breeze_spawner
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: crazy_chambers:melee_spawner
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:38] [Worker-Main-5/WARN]: Couldn't find template pool reference: minecraft:south
-[21:42:39] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=-327, y=59, z=-34}
-[21:42:39] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=-326, y=59, z=-34}
-[21:42:39] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=-325, y=59, z=-33}
-[21:42:39] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=-325, y=59, z=-32}
-[21:42:40] [Worker-Main-5/ERROR]: Block-attached entity at invalid position: class_2338{x=-327, y=59, z=-34}
-[21:42:40] [Worker-Main-5/ERROR]: Block-attached entity at invalid position: class_2338{x=-326, y=59, z=-34}
-[21:42:40] [Worker-Main-5/ERROR]: Block-attached entity at invalid position: class_2338{x=-325, y=59, z=-33}
-[21:42:40] [Worker-Main-5/ERROR]: Block-attached entity at invalid position: class_2338{x=-325, y=59, z=-32}
-[21:42:45] [Server thread/INFO]: Villager class_1646['Unemployed'/16613, l='ServerLevel[world]', x=2021.29, y=69.00, z=-1217.16] died, message: 'Unemployed was slain by Vindicator'
-[21:43:01] [Server thread/INFO]: Villager class_1646['Unemployed'/16623, l='ServerLevel[world]', x=2053.79, y=72.18, z=-1218.54] died, message: 'Unemployed was shot by Provoker'
-[21:43:29] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=-325, y=59, z=-32}
-[21:43:29] [Worker-Main-6/ERROR]: Block-attached entity at invalid position: class_2338{x=-327, y=59, z=-34}
-[21:43:29] [Worker-Main-6/ERROR]: Block-attached entity at invalid position: class_2338{x=-326, y=59, z=-34}
-[21:43:29] [Worker-Main-6/ERROR]: Block-attached entity at invalid position: class_2338{x=-325, y=59, z=-33}
-[21:43:30] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=-327, y=59, z=-34}
-[21:43:30] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=-326, y=59, z=-34}
-[21:43:30] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=-325, y=59, z=-33}
-[21:43:30] [Worker-Main-4/ERROR]: Block-attached entity at invalid position: class_2338{x=-325, y=59, z=-32}
-[21:43:42] [Server thread/INFO]: Mvpvxe has completed the challenge [Da Vinci Code (Quest)]
-[21:43:43] [Worker-Main-6/ERROR]: Block-attached entity at invalid position: class_2338{x=-327, y=59, z=-34}
-[21:43:43] [Worker-Main-6/ERROR]: Block-attached entity at invalid position: class_2338{x=-326, y=59, z=-34}
-[21:43:43] [Worker-Main-6/ERROR]: Block-attached entity at invalid position: class_2338{x=-325, y=59, z=-33}
-[21:43:43] [Worker-Main-6/ERROR]: Block-attached entity at invalid position: class_2338{x=-325, y=59, z=-32}
-[21:43:43] [Server thread/INFO]: Mvpvxe has reached the goal [Postmortal]
-[21:43:44] [Server thread/INFO]: [Mvpvxe: Set own game mode to Spectator Mode]
-[21:44:12] [Server thread/INFO]: [Mvpvxe: Set own game mode to Survival Mode]
-[21:44:22] [Server thread/INFO]: Mvpvxe has made the advancement [It opens!]
-[21:44:57] [Server thread/INFO]: [Mvpvxe: Set own game mode to Spectator Mode]
-[21:45:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2518ms or 50 ticks behind
+[22:08:36] [main/WARN]: launchTarget: SERVER. Crash Assistant is client only mod. Mod will do nothing!
+[22:08:36] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/codespaces-blank/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[22:08:36] [main/INFO]: Compatibility level set to JAVA_18
+[22:08:36] [main/INFO]: Compatibility level set to JAVA_21
+[22:08:36] [main/WARN]: Reference map 'eternalnether.fabric.refmap.json' for eternalnether.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:08:36] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:08:36] [main/WARN]: Reference map 'forgeconfigapiport.fabric.refmap.json' for forgeconfigapiport.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:08:36] [main/WARN]: Reference map 'illagerinvasion.fabric.refmap.json' for illagerinvasion.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:08:36] [main/WARN]: Reference map 'iteminteractions.fabric.refmap.json' for iteminteractions.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:08:36] [main/INFO]: Loaded configuration file for Lithium: 163 options available, 0 override(s) found.
+[22:08:36] [main/WARN]: Reference map 'mixins.medieval_buildings.refmap.fabric.json' for mixins.medieval_buildings.fabric.json could not be read. If this is a development environment you can ignore this message
+[22:08:36] [main/WARN]: Reference map 'mixins.medieval_nether.refmap.fabric.json' for mixins.medieval_nether.fabric.json could not be read. If this is a development environment you can ignore this message
+[22:08:36] [main/WARN]: Reference map 'metalbundles.common.refmap.json' for metalbundles.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:08:36] [main/WARN]: Reference map 'metalbundles.fabric.refmap.json' for metalbundles.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:08:36] [main/WARN]: Reference map 'neoforgedatapackextensions.common.refmap.json' for neoforgedatapackextensions.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:08:36] [main/WARN]: Reference map 'prickle.refmap.json' for prickle.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:08:36] [main/WARN]: Reference map 'prickle.refmap.json' for prickle.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:08:36] [main/WARN]: Reference map 'tradingpost.fabric.refmap.json' for tradingpost.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:08:36] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:08:36] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:08:37] [main/WARN]: Error loading class: net/minecraft/class_757 (java.lang.ClassNotFoundException: net/minecraft/class_757)
+[22:08:37] [main/WARN]: @Mixin target net.minecraft.class_757 was not found creativecore.fabric.mixins.json:GameRendererMixin from mod creativecore
+[22:08:37] [main/WARN]: Error loading class: net/minecraft/class_9934 (java.lang.ClassNotFoundException: net/minecraft/class_9934)
+[22:08:37] [main/WARN]: @Mixin target net.minecraft.class_9934 was not found farmersdelight.mixins.json:refabricated.GhostSlotsInvoker from mod farmersdelight
+[22:08:37] [main/WARN]: Error loading class: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider (java.lang.ClassNotFoundException: net/fabricmc/fabric/api/client/rendering/v1/EntityModelLayerRegistry$TexturedModelDataProvider)
+[22:08:37] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[22:08:45] [main/INFO]: Initializing Everlasting Amber Dreams on Fabric...
+[22:08:45] [main/INFO]: Amber internal networking initialized
+[22:08:45] [main/INFO]: Initializing Asgard Shield Reloaded
+[22:08:45] [main/INFO]: Biolith for Fabric is initializing...
+[22:08:45] [main/INFO]: Enabling Biolith's TerraBlender compatibility layer.
+[22:08:46] [main/INFO]: Constructing components for eternalnether:common
+[22:08:46] [main/INFO]: Loaded config farmersdelight-common.json
+[22:08:46] [main/INFO]: Constructing components for fastitemframes:common
+[22:08:47] [main/INFO]: Initialized Frostiful!
+[22:08:47] [main/INFO]: Constructing components for illagerinvasion:common
+[22:08:47] [main/INFO]: Constructing components for iteminteractions:common
+[22:08:47] [main/INFO]: Litemining, from poppies to deepslate.
+[22:08:47] [main/INFO]: Liteminer network initialized
+[22:08:48] [main/INFO]: Constructing components for metalbundles:common
+[22:08:48] [main/INFO]: Definitely not up to no good
+[22:08:48] [main/INFO]: blod: I think I need to take a book out of your page
+[22:08:48] [main/WARN]: Version checker is not available.
+[22:08:48] [main/INFO]: Constructing components for puzzleslib:common
+[22:08:48] [main/INFO]: Config 'appearance.json' from type 'CLIENT' was skipped.
+[22:08:48] [main/INFO]: [ServerCore] Loaded V1.5.14+1.21.9!
+[22:08:49] [main/INFO]: New compacting rule 4 minecraft:clay_ball = 1 minecraft:clay
+[22:08:49] [main/INFO]: New compacting rule 4 minecraft:snowball = 1 minecraft:snow_block
+[22:08:49] [main/INFO]: New compacting rule 4 minecraft:glowstone_dust = 1 minecraft:glowstone
+[22:08:49] [main/INFO]: New compacting rule 4 minecraft:brick = 1 minecraft:bricks
+[22:08:49] [main/INFO]: New compacting rule 4 minecraft:nether_brick = 1 minecraft:nether_bricks
+[22:08:49] [main/INFO]: New compacting rule 9 minecraft:nether_wart = 1 minecraft:nether_wart_block
+[22:08:49] [main/INFO]: New compacting rule 4 minecraft:quartz = 1 minecraft:quartz_block
+[22:08:49] [main/INFO]: New compacting rule 9 minecraft:melon_slice = 1 minecraft:melon
+[22:08:49] [main/INFO]: New compacting rule 9 minecraft:bamboo = 1 minecraft:bamboo_block
+[22:08:49] [main/INFO]: New compacting rule 4 minecraft:clay_ball = 1 minecraft:clay
+[22:08:49] [main/INFO]: New denied storage item storagedrawers:creative_vending_upgrade
+[22:08:49] [main/INFO]: Adding ore conversions for types: c:storage_blocks, c:ingots, c:nuggets
+[22:08:49] [main/INFO]: Adding ore conversions for materials: aluminum, constantan, steel, uranium, invar, tin, lead, silver, platinum, nickel, osmium, bronze, electrum
+[22:08:49] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[22:08:49] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[22:08:49] [main/INFO]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[22:08:49] [main/INFO]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[22:08:49] [main/INFO]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[22:08:49] [main/INFO]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[22:08:49] [main/INFO]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[22:08:49] [main/INFO]: Thermoo initialized
+[22:08:49] [main/INFO]: Constructing components for tradingpost:common
+[22:08:49] [main/INFO]: Registering Items for weaponsexpanded
+[22:08:49] [main/INFO]: Registering enchantment effects for weaponsexpanded
+[22:08:49] [main/INFO]: Registering Effects forweaponsexpanded
+[22:08:49] [main/INFO]: Download MuseSwipr on Steam!
+[22:08:49] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[22:08:49] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[22:08:49] [main/ERROR]: Couldn't load mr_lukis_ancientcities pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[22:08:49] [main/ERROR]: Couldn't load mr_lukis_crazychambers pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[22:08:49] [main/ERROR]: Couldn't load mr_lukis_grandcapitals pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[22:08:49] [main/ERROR]: Couldn't load mr_lukis_ancientcities pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[22:08:49] [main/ERROR]: Couldn't load mr_lukis_crazychambers pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[22:08:49] [main/ERROR]: Couldn't load mr_lukis_grandcapitals pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[22:08:49] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[22:08:49] [main/ERROR]: Couldn't load mr_lukis_ancientcities pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[22:08:49] [main/ERROR]: Couldn't load mr_lukis_crazychambers pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[22:08:49] [main/ERROR]: Couldn't load mr_lukis_grandcapitals pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[22:08:52] [Worker-Main-3/ERROR]: Couldn't parse data file 'mvs:cathedral_common' from 'mvs:loot_table/cathedral_common.json': DataResult.Error['Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain': net.minecraft.class_52@36c89dfb]
+[22:08:52] [Worker-Main-3/ERROR]: Couldn't parse data file 'mvs:cathedral_rare' from 'mvs:loot_table/cathedral_rare.json': DataResult.Error['Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain': net.minecraft.class_52@7653374]
+[22:08:53] [Worker-Main-3/INFO]: Registering Amber commands for Fabric
+[22:08:53] [Worker-Main-2/ERROR]: Couldn't parse data file 'biomesoplenty:dead_hanging_sign' from 'biomesoplenty:recipe/dead_hanging_sign.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "minecraft:chain"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
+[22:08:53] [Worker-Main-2/ERROR]: Couldn't parse data file 'biomesoplenty:empyreal_hanging_sign' from 'biomesoplenty:recipe/empyreal_hanging_sign.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "minecraft:chain"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
+[22:08:53] [Worker-Main-2/ERROR]: Couldn't parse data file 'biomesoplenty:fir_hanging_sign' from 'biomesoplenty:recipe/fir_hanging_sign.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "minecraft:chain"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
+[22:08:53] [Worker-Main-2/ERROR]: Couldn't parse data file 'biomesoplenty:hellbark_hanging_sign' from 'biomesoplenty:recipe/hellbark_hanging_sign.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "minecraft:chain"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
+[22:08:53] [Worker-Main-2/ERROR]: Couldn't parse data file 'biomesoplenty:jacaranda_hanging_sign' from 'biomesoplenty:recipe/jacaranda_hanging_sign.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "minecraft:chain"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
+[22:08:53] [Worker-Main-2/ERROR]: Couldn't parse data file 'biomesoplenty:magic_hanging_sign' from 'biomesoplenty:recipe/magic_hanging_sign.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "minecraft:chain"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
+[22:08:53] [Worker-Main-2/ERROR]: Couldn't parse data file 'biomesoplenty:mahogany_hanging_sign' from 'biomesoplenty:recipe/mahogany_hanging_sign.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "minecraft:chain"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
+[22:08:53] [Worker-Main-2/ERROR]: Couldn't parse data file 'biomesoplenty:maple_hanging_sign' from 'biomesoplenty:recipe/maple_hanging_sign.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "minecraft:chain"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
+[22:08:53] [Worker-Main-2/ERROR]: Couldn't parse data file 'biomesoplenty:origin_oak_hanging_sign' from 'biomesoplenty:recipe/origin_oak_hanging_sign.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "minecraft:chain"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
+[22:08:53] [Worker-Main-2/ERROR]: Couldn't parse data file 'biomesoplenty:palm_hanging_sign' from 'biomesoplenty:recipe/palm_hanging_sign.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "minecraft:chain"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
+[22:08:53] [Worker-Main-2/ERROR]: Couldn't parse data file 'biomesoplenty:pine_hanging_sign' from 'biomesoplenty:recipe/pine_hanging_sign.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "minecraft:chain"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
+[22:08:53] [Worker-Main-2/ERROR]: Couldn't parse data file 'biomesoplenty:redwood_hanging_sign' from 'biomesoplenty:recipe/redwood_hanging_sign.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "minecraft:chain"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
+[22:08:53] [Worker-Main-2/ERROR]: Couldn't parse data file 'biomesoplenty:umbran_hanging_sign' from 'biomesoplenty:recipe/umbran_hanging_sign.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "minecraft:chain"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
+[22:08:53] [Worker-Main-2/ERROR]: Couldn't parse data file 'biomesoplenty:willow_hanging_sign' from 'biomesoplenty:recipe/willow_hanging_sign.json': DataResult.Error['Map entry 'X' : Failed to parse either. First: Not a JSON object: "minecraft:chain"; Second: Failed to parse either. First: Not a tag id; Second: Failed to parse either. First: Not a json array: "minecraft:chain"; Second: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain']
+[22:08:53] [Worker-Main-2/WARN]: Found data map file for non-existent data map type 'neoforge:compostables' on registry 'minecraft:item'.
+[22:08:53] [Worker-Main-2/WARN]: Found data map file for non-existent data map type 'neoforge:furnace_fuels' on registry 'minecraft:item'.
+[22:08:54] [main/INFO]: Loaded 2893 recipes
+[22:08:54] [main/INFO]: Loaded 3482 advancements
+[22:08:54] [main/INFO]: Clearing Entity Type to Temperature Effect cache
+[22:08:54] [main/INFO]: Loaded 4 temperature effects
+[22:08:54] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 87 translation keys
+[22:08:54] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[22:08:55] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[22:08:55] [main/INFO]: Applied 1444 biome modifications to 148 of 151 new biomes in 55.54 ms
+[22:08:55] [Server thread/INFO]: Dispatching loading event for config illagerinvasion-server.toml
+[22:08:55] [Server thread/INFO]: Dispatching loading event for config iteminteractions-server.toml
+[22:08:55] [Server thread/INFO]: Dispatching loading event for config metalbundles-server.toml
+[22:08:55] [Server thread/INFO]: Dispatching loading event for config tradingpost-server.toml
+[22:08:55] [Server thread/INFO]: Config 'explorations.json' was successfully loaded.
+[22:08:55] [Server thread/INFO]: Added statues to vanilla villages
+[22:08:55] [Server thread/INFO]: Starting background profiler...
+[22:08:55] [Server thread/INFO]: Invalidated damage temperature effect registry cache
+[22:08:55] [Server thread/INFO]: Starting minecraft server version 1.21.9
+[22:08:55] [Server thread/INFO]: Loading properties
+[22:08:55] [Server thread/INFO]: Default game type: SURVIVAL
+[22:08:55] [Server thread/INFO]: Generating keypair
+[22:08:55] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:08:55] [Server thread/INFO]: Using epoll channel type
+[22:08:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:08:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:08:56] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:08:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:08:56] [Server thread/INFO]: Preparing level "world"
+[22:08:57] [Server thread/INFO]: Ignoring world 'yggdrasil:ginnungagap'; unknown dimension type: yggdrasil:ginnungagap
+[22:08:57] [Server thread/INFO]: Loading 25 persistent chunks...
+[22:08:57] [Server thread/INFO]: Preparing spawn area: 28%
+[22:08:57] [Server thread/INFO]: Preparing spawn area: 28%
+[22:08:58] [Server thread/INFO]: Preparing spawn area: 28%
+[22:08:58] [Server thread/INFO]: Preparing spawn area: 28%
+[22:08:59] [Server thread/INFO]: Preparing spawn area: 28%
+[22:08:59] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:00] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:00] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:01] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:01] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:02] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:02] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:03] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:03] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:04] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:04] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:05] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:05] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:06] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:06] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:07] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:07] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:08] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:08] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:09] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:09] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:10] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:10] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:11] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:11] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:12] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:12] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:13] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:13] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:14] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:14] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:15] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:15] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:16] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:16] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:17] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:17] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:18] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:18] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:19] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:19] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:20] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:21] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:21] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:21] [Server thread/INFO]: Preparing spawn area: 28%
+[22:09:21] [Server thread/INFO]: Time elapsed: 24677 ms
+[22:09:21] [Server thread/INFO]: Done (25.874s)! For help, type "help"
+[22:09:22] [Server thread/INFO]: Start loading plugin from Balm: net.blay09.mods.balm.fabric.compat.hudinfo.FabricJadeModCompat
+[22:09:22] [Server thread/INFO]: Start loading plugin from Beautify: io.github.suel_ki.beautify.compat.jade.JadePlugin
+[22:09:22] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
+[22:09:22] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
+[22:09:22] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
+[22:09:22] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
+[22:09:22] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
+[22:09:22] [Server thread/INFO]: Start loading plugin from Waystones: net.blay09.mods.waystones.compat.JadeIntegration
+[22:09:22] [Server thread/INFO]: Initialized AttributeFix. Took 69.08ms.
+[22:09:22] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[22:09:22] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[22:09:30] [Server thread/INFO]: Mvpvxe[/127.253.138.50:48105] logged in with entity id 38 at (-442.53883792973477, 111.0, -1038.7529271184787)
+[22:09:30] [Server thread/INFO]: Syncing Server Configs with Client
+[22:09:30] [Server thread/INFO]: Sending data for Config 'resource_backpacks:common/backpacks'
+[22:09:30] [Server thread/INFO]: Sending data for Config 'resource_backpacks:common/chest_loot'
+[22:09:30] [Server thread/INFO]: Sending data for Config 'resource_backpacks:common/entity_config'
+[22:09:30] [Server thread/INFO]: Mvpvxe joined the game
+[22:09:30] [Server thread/INFO]: [ShulkerBoxTooltip] Mvpvxe: protocol version: 2.0
+[22:09:30] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Loading 1 plugin: shulkerboxtooltip
+[22:09:30] [Server thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 51 providers for mod shulkerboxtooltip
+[22:09:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2194ms or 43 ticks behind
+[22:18:29] [Server thread/INFO]: Villager class_1646['Unemployed'/233, l='ServerLevel[world]', x=-310.50, y=23.56, z=-1028.50] died, message: 'Unemployed suffocated in a wall'
+[22:19:07] [Server thread/INFO]: Tree reached max size of 100
+[22:19:09] [Server thread/INFO]: Tree reached max size of 100
+[22:19:17] [Server thread/INFO]: [Mvpvxe: Gave 1 [Diamond Axe] to Mvpvxe]
+[22:19:30] [Server thread/INFO]: [Mvpvxe: Set own game mode to Spectator Mode]
+[22:19:37] [Server thread/INFO]: [Mvpvxe: Set own game mode to Survival Mode]
+[22:24:42] [Server thread/INFO]: Mvpvxe lost connection: Disconnected
+[22:24:42] [Server thread/INFO]: Mvpvxe left the game
+[22:25:41] [Server thread/INFO]: Server empty for 60 seconds, pausing
