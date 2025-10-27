@@ -2,7 +2,9 @@ import os
 import time
 import subprocess
 
-# Intervalo en segundos (5 minutos = 300 segundos)
+# Intervalo en segundos (5 minutos = 300 segundos)1	60
+#2	120 #3	180 #4	240 #5	300 #6	360
+#7	420 #8	480 #9	540 #10	600
 INTERVALO = 300  
 
 def ejecutar(comando):
