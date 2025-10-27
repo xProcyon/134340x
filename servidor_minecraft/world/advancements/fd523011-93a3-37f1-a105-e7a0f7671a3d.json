@@ -1,0 +1,253 @@
+{
+  "darkrpg:root": {
+    "criteria": {
+      "darkrpg_info_extras": "2025-10-27 04:11:14 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-10-27 04:21:12 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-10-27 04:21:12 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-10-27 04:21:12 +0000"
+    },
+    "done": false
+  },
+  "ancient_artifacts:main/root": {
+    "criteria": {
+      "requirement": "2025-10-27 04:11:16 +0000"
+    },
+    "done": true
+  },
+  "darkrpg:info_casino": {
+    "criteria": {
+      "darkrpg_info_extras": "2025-10-27 04:11:14 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2025-10-27 04:21:12 +0000"
+    },
+    "done": false
+  },
+  "repurposed_structures:root": {
+    "criteria": {
+      "always": "2025-10-27 04:11:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-10-27 04:11:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2025-10-27 04:11:44 +0000"
+    },
+    "done": true
+  },
+  "adorabuild_structures:overworld_structures": {
+    "criteria": {
+      "always": "2025-10-27 04:11:14 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-10-27 04:21:12 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2025-10-27 04:11:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2025-10-27 04:11:44 +0000"
+    },
+    "done": true
+  },
+  "darkrpg:info_story": {
+    "criteria": {
+      "darkrpg_info_extras": "2025-10-27 04:11:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2025-10-27 04:11:44 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-10-27 04:21:12 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2025-10-27 04:11:44 +0000"
+    },
+    "done": true
+  },
+  "promenade:recipes/transportation/palm_boat": {
+    "criteria": {
+      "in_water": "2025-10-27 04:11:44 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/new_player": {
+    "criteria": {
+      "requirement": "2025-10-27 04:11:14 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-10-27 04:21:12 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2025-10-27 04:21:12 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2025-10-27 04:11:44 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:root": {
+    "criteria": {
+      "dnt_discover_structure": "2025-10-27 04:15:13 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/scroll_of_returning": {
+    "criteria": {
+      "log_spam_fixer": "2025-10-27 04:11:16 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2025-10-27 04:21:12 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/using/ragnarok": {
+    "criteria": {
+      "log_spam_fixer": "2025-10-27 04:11:16 +0000"
+    },
+    "done": false
+  },
+  "promenade:recipes/transportation/sakura_boat": {
+    "criteria": {
+      "in_water": "2025-10-27 04:11:44 +0000"
+    },
+    "done": true
+  },
+  "promenade:recipes/transportation/maple_boat": {
+    "criteria": {
+      "in_water": "2025-10-27 04:11:44 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2025-10-27 04:21:12 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/using/trailblazer": {
+    "criteria": {
+      "log_spam_fixer": "2025-10-27 04:11:16 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2025-10-27 04:11:44 +0000"
+    },
+    "done": true
+  },
+  "darkrpg:info_extras": {
+    "criteria": {
+      "darkrpg_info_extras": "2025-10-27 04:11:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/pale_oak_boat": {
+    "criteria": {
+      "in_water": "2025-10-27 04:11:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2025-10-27 04:11:46 +0000",
+      "minecraft:taiga": "2025-10-27 04:11:16 +0000",
+      "minecraft:deep_ocean": "2025-10-27 04:17:06 +0000",
+      "minecraft:cherry_grove": "2025-10-27 04:12:32 +0000",
+      "minecraft:plains": "2025-10-27 04:19:00 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-10-27 04:21:12 +0000"
+    },
+    "done": false
+  },
+  "darkrpg:info_crafting": {
+    "criteria": {
+      "darkrpg_info_crafting": "2025-10-27 04:11:14 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2025-10-27 04:21:12 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/using/shield": {
+    "criteria": {
+      "log_spam_fixer": "2025-10-27 04:11:16 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2025-10-27 04:11:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2025-10-27 04:11:44 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 4556
+}
