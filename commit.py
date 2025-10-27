@@ -18,15 +18,19 @@ def ejecutar(comando):
     if resultado.stderr:
         print(resultado.stderr)
 
+contador = 1  # Inicia el contador en 1
+
 while True:
     print("\n==============================")
-    print("Guardando cambios en el repositorio...")
+    print(f"Guardando cambios (Ejecución #{contador})...")
     print("==============================")
     
     ejecutar("git add .")
-    ejecutar('git commit -m "actualizado"')
+    ejecutar(f'git commit -m "actualizado (ejecución #{contador})"')
     ejecutar("git pull --rebase")
     ejecutar("git push")
     
-    print("✅ Cambios guardados. Esperando 5 minutos...\n")
+    print(f"✅ Cambios guardados (Ejecución #{contador}). Esperando {INTERVALO/60} minutos...\n")
+    
+    contador += 1
     time.sleep(INTERVALO)
