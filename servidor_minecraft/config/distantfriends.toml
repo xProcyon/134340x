@@ -1,0 +1,10 @@
+[general]
+friends = ["Darkosto", "ShyNieke", "Mrbysco"]
+spawnDimensions = ["minecraft:overworld"]
+addWhitelistPlayers = true
+showName = true
+[compat]
+playerMobsCompat = false
+playerMobsWhitelist = []
+[spawning]
+spawnWeight = 20

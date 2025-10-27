@@ -1,53 +1,434 @@
-[03:23:38] [main/INFO]: Loading Minecraft 1.21.10 with Fabric Loader 0.17.3
-[03:23:38] [main/INFO]: Loading 4 mods:
+[04:08:27] [main/INFO]: Loading Minecraft 1.21.10 with Fabric Loader 0.17.3
+[04:08:28] [ForkJoinPool-1-worker-1/WARN]: Mod mr_ancient_artifacts2 uses the version 2.5.3a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '3a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[04:08:28] [ForkJoinPool-1-worker-4/WARN]: The mod "resourceconfigapi" contains invalid entries in its mod json:
+- Unsupported root entry "accesswidener" at line 16 column 20
+[04:08:28] [ForkJoinPool-1-worker-1/WARN]: Mod ctov uses the version 3.5.10a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '10a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[04:08:28] [main/WARN]: Warnings were found!
+ - Mod 'Accessorify' (accessorify) 2.3.3+1.21.10 recommends any version of lambdynamiclights, which is missing!
+	 - You should install any version of lambdynamiclights for the optimal experience.
+[04:08:28] [main/INFO]: Loading 224 mods:
+	- accessories 1.4.0-beta+1.21.10
+	   |-- io_wispforest_endec 0.1.11
+	   |-- io_wispforest_endec_gson 0.1.6
+	   |-- io_wispforest_endec_jankson 0.1.6
+	   \-- io_wispforest_endec_netty 0.1.5
+	- accessorify 2.3.3+1.21.10
+	   \-- com_moulberry_mixinconstraints 1.1.0
+	- achiopt 2.1.1
+	- additionalstructures 5.1.3-fabric
+	- adorabuild_structures 2.10.1
+	- amber 8.0.0+1.21.10
+	- appleskin 3.0.7+mc1.21.9
+	- architectury 18.0.6
+	- asr 3.0.0
+	- attributefix 21.10.2
+	- auui 0.2.1
+	- balm 21.10.1
+	   \-- kuma_api 21.10.2
+	- blastingraw 3.2
+	- cardinal-components 7.2.0
+	   |-- cardinal-components-base 7.2.0
+	   |-- cardinal-components-block 7.2.0
+	   |-- cardinal-components-chunk 7.2.0
+	   |-- cardinal-components-entity 7.2.0
+	   |-- cardinal-components-item 7.2.0
+	   |-- cardinal-components-level 7.2.0
+	   |-- cardinal-components-scoreboard 7.2.0
+	   \-- cardinal-components-world 7.2.0
+	- chunky 1.4.51
+	- cloth-config 20.0.148
+	   \-- cloth-basic-math 0.6.1
+	- clumps 28.0.0.1
+	- combatnouveau 21.10.0
+	- coolrain 1.3.0-1.21.10
+	- crash_assistant 1.10.15
+	- cristellib 3.0.2
+	   \-- blue_endless_jankson 1.2.3
+	- cropsloverain 3.1.2
+	- ctov 3.5.10a
+	- darkquesting 1.3.0
+	- deimos 2.4
+	- distantfriends 0.13.0
+	- diversity 2.5.3
+	- dungeons_arise_seven_seas 1.0.4
+	- explorations 1.21.10-1.6.3
+	- explorify 1.6.4
+	- fabric-api 0.136.0+1.21.10
+	   |-- fabric-api-base 1.0.0+14b92d896f
+	   |-- fabric-api-lookup-api-v1 1.6.106+d17682156f
+	   |-- fabric-biome-api-v1 16.1.0+c2417d4f6f
+	   |-- fabric-block-api-v1 1.1.5+d17682156f
+	   |-- fabric-block-view-api-v2 1.0.34+e4fd1b926f
+	   |-- fabric-command-api-v2 2.4.0+c0ab2d5d6f
+	   |-- fabric-content-registries-v0 10.2.4+b6a242646f
+	   |-- fabric-convention-tags-v1 2.1.48+7f945d5b6f
+	   |-- fabric-convention-tags-v2 2.16.0+552403eb6f
+	   |-- fabric-crash-report-info-v1 0.3.18+33df5e6e6f
+	   |-- fabric-data-attachment-api-v1 1.8.30+68e881bd6f
+	   |-- fabric-data-generation-api-v1 23.2.24+d8b85ef16f
+	   |-- fabric-dimensions-v1 4.0.22+38b9cc196f
+	   |-- fabric-entity-events-v1 2.1.13+fde3702c6f
+	   |-- fabric-events-interaction-v0 4.0.36+5ba217126f
+	   |-- fabric-game-rule-api-v1 1.1.1+e47eaae56f
+	   |-- fabric-item-api-v1 11.5.9+9bce411b6f
+	   |-- fabric-item-group-api-v1 4.2.25+86b3ae576f
+	   |-- fabric-key-binding-api-v1 1.1.1+b3ba9c486f
+	   |-- fabric-lifecycle-events-v1 2.6.9+33df5e6e6f
+	   |-- fabric-loot-api-v2 3.0.65+3f89f5a56f
+	   |-- fabric-loot-api-v3 2.0.12+d17682156f
+	   |-- fabric-message-api-v1 6.1.7+3154c1c86f
+	   |-- fabric-model-loading-api-v1 6.0.2+3ffd6ef06f
+	   |-- fabric-networking-api-v1 5.1.0+b095d8db6f
+	   |-- fabric-object-builder-api-v1 21.1.26+9bce411b6f
+	   |-- fabric-particles-v1 4.2.3+a0ee59a46f
+	   |-- fabric-recipe-api-v1 8.1.27+d17682156f
+	   |-- fabric-registry-sync-v0 6.1.42+679c8c5c6f
+	   |-- fabric-renderer-api-v1 7.2.0+3706cdf36f
+	   |-- fabric-renderer-indigo 4.1.1+d7df91576f
+	   |-- fabric-rendering-fluids-v1 3.1.38+86b3ae576f
+	   |-- fabric-rendering-v1 16.0.2+19a99b056f
+	   |-- fabric-resource-conditions-api-v1 5.0.28+33df5e6e6f
+	   |-- fabric-resource-loader-v0 3.2.3+3388a3b26f
+	   |-- fabric-resource-loader-v1 1.0.3+8cc86c156f
+	   |-- fabric-screen-api-v1 3.1.0+9c82a7986f
+	   |-- fabric-screen-handler-api-v1 1.3.151+d17682156f
+	   |-- fabric-serialization-api-v1 1.0.0+d857c9766f
+	   |-- fabric-sound-api-v1 1.0.45+328a75ba6f
+	   |-- fabric-tag-api-v1 1.2.11+2fa446b26f
+	   |-- fabric-transfer-api-v1 6.0.15+79ec2c126f
+	   \-- fabric-transitive-access-wideners-v1 6.5.3+41eb43436f
+	- fabric-language-kotlin 1.13.7+kotlin.2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.2.21
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.2.21
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.29.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.7.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.9.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.9.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.9.0
 	- fabricloader 0.17.3
 	   \-- mixinextras 0.5.0
+	- faewulf_lib 1.3.2
+	- farmersdelight 1.21.10-3.3.3+refabricated
+	   \-- mm 2.3
+	- forgeconfigapiport 21.10.0
+	   |-- com_electronwill_night-config_core 3.8.3
+	   \-- com_electronwill_night-config_toml 3.8.3
+	- formations 1.0.4
+	- formationsnether 1.0.5
+	- formationsoverworld 1.0.5
+	- friendsandfoes 4.0.15
+	- frostiful 2.2.11+1.21.10
+	- fzzy_config 0.7.2+1.21.9
+	   |-- blue_endless_jankson 1.2.3
+	   \-- net_peanuuutz_tomlkt_tomlkt-jvm 0.3.7
+	- hopobettermineshaft 1.3.4
+	- hopobetterruinedportal 1.4.7
+	- hopobetterunderwaterruins 1.2.4
+	- incendium 5.4.9
+	- inventorysorter 2.1.0
+	   |-- com_github_erosb_everit-json-schema 1.14.4
+	   |-- fabric-permissions-api-v0 0.5.0
+	   |-- meza_core 1.1.2
+	   |-- org_json_json 20231013
+	   \-- server_translations_api 2.5.2+1.21.9-pre3
+	- jade 20.0.5+fabric
 	- java 21
+	- justzoom 2.1.2
+	- konkrete 1.9.13
+	- leavesbegone 21.10.0
+	- liteminer 1.4.1+1.21.10
+	- lithium 0.20.0+mc1.21.10
+	- lithostitched 1.5.1
+	- macevariants 1.0.4
+	- medieval_buildings 1.1.2
+	- medieval_nether 1.0.1
+	- medievalend 1.0.5
+	- mes 1.4.7-1.21.9-1.21.10-fabric
+	- metalbundles 21.10.0
+	   \-- iteminteractions 21.10.0
+	- midnightlib 1.8.3
 	- minecraft 1.21.10
-[03:23:38] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/GitHUDmsx/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[03:23:43] [main/ERROR]: Failed to load properties from file: server.properties
-java.nio.file.NoSuchFileException: server.properties
-	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?]
-	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
-	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
-	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
-	at java.base/java.nio.file.Files.newByteChannel(Files.java:432) ~[?:?]
-	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420) ~[?:?]
-	at java.base/java.nio.file.Files.newInputStream(Files.java:160) ~[?:?]
-	at knot/net.minecraft.class_3808.method_16727(class_3808.java:62) [server-intermediary.jar:?]
-	at knot/net.minecraft.class_3806.method_16714(class_3806.java:153) [server-intermediary.jar:?]
-	at knot/net.minecraft.class_3807.<init>(class_3807.java:12) [server-intermediary.jar:?]
-	at knot/net.minecraft.server.Main.main(Main.java:115) [server-intermediary.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:506) [fabric-loader-0.17.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72) [fabric-loader-0.17.3.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.17.3.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.17.3.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
-[03:23:43] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[03:23:44] [main/INFO]: No existing world data, creating new world
-[03:23:45] [main/INFO]: Loaded 1461 recipes
-[03:23:45] [main/INFO]: Loaded 1574 advancements
-[03:23:45] [Server thread/INFO]: Starting minecraft server version 1.21.10
-[03:23:45] [Server thread/INFO]: Loading properties
-[03:23:45] [Server thread/INFO]: Default game type: SURVIVAL
-[03:23:45] [Server thread/INFO]: Generating keypair
-[03:23:46] [Server thread/INFO]: Starting Minecraft server on *:25565
-[03:23:46] [Server thread/INFO]: Using epoll channel type
-[03:23:46] [Server thread/INFO]: Preparing level "world"
-[03:23:46] [Server thread/INFO]: Selecting global world spawn...
-[03:23:52] [Server thread/INFO]: Loading 0 persistent chunks...
-[03:23:52] [Server thread/INFO]: Preparing spawn area: 100%
-[03:23:52] [Server thread/INFO]: Time elapsed: 5748 ms
-[03:23:52] [Server thread/INFO]: Done (6.082s)! For help, type "help"
-[03:23:58] [Server thread/INFO]: Stopping the server
-[03:23:58] [Server thread/INFO]: Stopping server
-[03:23:58] [Server thread/INFO]: Saving players
-[03:23:58] [Server thread/INFO]: Saving worlds
-[03:23:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[03:23:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[03:23:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[03:23:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03:23:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03:23:58] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03:23:58] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+	- mns 2.0.0
+	- moogs_structures 1.0.2-1.21.5-1.21.10-fabric
+	- mr_ancient_artifacts2 2.5.3a
+	- mr_dungeons_andtaverns 1-v5.0.2
+	- mr_dungeons_andtavernsancientcityoverhaul 1-v3.2
+	- mr_dungeons_andtavernsdeserttempleoverhaul 1-v2.1
+	- mr_dungeons_andtavernsjungletempleoverhaul 1-v2.1
+	- mr_dungeons_andtavernsnetherfortressoverhaul 1-v3.1
+	- mr_dungeons_andtavernsoceanmonumentoverhaul 1-v2.1
+	- mr_dungeons_andtavernspillageroutpostoverhaul 1-v3.3
+	- mr_dungeons_andtavernsstrongholdoverhaul 1-v2.3.2
+	- mr_dungeons_andtavernsswamphutoverhaul 1-v2.3
+	- mr_dungeons_andtavernswoodlandmansionoverhaul 1-v2
+	- mr_lukis_ancientcities 1.1
+	- mr_lukis_crazychambers 1.0.2
+	- mr_lukis_grandcapitals 1.1.2
+	- mru 1.0.24+edge+1.21.10
+	- mss 2.0.0
+	- mtr 1.0.2
+	- mutantszombies 1.1.0-Fabric-mc1.21.9
+	- mvs 5.0.1
+	- noisium 2.8.1+mc1.21.10
+	- owo 0.12.24+1.21.9
+	   |-- io_wispforest_endec_gson 0.1.6
+	   |-- io_wispforest_endec_jankson 0.1.6
+	   \-- io_wispforest_endec_netty 0.1.5
+	- particular 1.3.1
+	- placeholder-api 2.8.1+1.21.10
+	- polymer-bundled 0.14.3+1.21.10
+	   |-- polymer-autohost 0.14.3+1.21.10
+	   |-- polymer-blocks 0.14.3+1.21.10
+	   |-- polymer-common 0.14.3+1.21.10
+	   |    \-- packet_tweaker 0.6.0+1.21.10
+	   |-- polymer-core 0.14.3+1.21.10
+	   |    |-- polymer-networking 0.14.3+1.21.10
+	   |    |    \-- polymer-common 0.14.3+1.21.10
+	   |    |         \-- packet_tweaker 0.6.0+1.21.10
+	   |    \-- polymer-registry-sync-manipulator 0.14.3+1.21.10
+	   |-- polymer-resource-pack 0.14.3+1.21.10
+	   |    \-- polymer-common 0.14.3+1.21.10
+	   |         \-- packet_tweaker 0.6.0+1.21.10
+	   |-- polymer-resource-pack-extras 0.14.3+1.21.10
+	   |-- polymer-sound-patcher 0.14.3+1.21.10
+	   \-- polymer-virtual-entity 0.14.3+1.21.10
+	        \-- polymer-common 0.14.3+1.21.10
+	             \-- packet_tweaker 0.6.0+1.21.10
+	- prickle 21.10.2
+	- promenade 5.3.0
+	   \-- biolith 3.4.0-alpha.4
+	- puzzleslib 21.10.5
+	- repurposed_structures 7.5.22+1.21.9-fabric
+	- resource_backpacks 1.21.10-1.3.0
+	- resourceconfigapi 1.21.10-3.8.1
+	- resourcefulconfig 3.9.1
+	- resourcefullib 3.9.1
+	   |-- com_teamresourceful_bytecodecs 1.1.3
+	   \-- com_teamresourceful_yabn 1.0.3
+	- resourcelibrary 1.21.10-2.9.2
+	- servercore 1.5.14+1.21.9
+	   |-- org_yaml_snakeyaml 2.5
+	   |-- space_arim_dazzleconf_dazzleconf-core 1.3.0-M2
+	   \-- space_arim_dazzleconf_dazzleconf-ext-snakeyaml 1.3.0-M2
+	- shulkerboxtooltip 5.2.11+1.21.9
+	- sound_physics_remastered 1.21.10-1.5.1
+	- spark 1.10.152
+	   \-- fabric-permissions-api-v0 0.5.0
+	- stellarity 5.1.2
+	- structory 1.3.13
+	- structory_towers 1.0.14
+	- t_and_t 1.13.7
+	- terrablender 21.10.0.0
+	- terralith 2.5.13
+	- thermoo 8.0.2
+	- trade_cycling 1.21.10-1.0.19
+	   |-- fabric-key-binding-api-v1 1.1.1+b3ba9c4868
+	   \-- fabric-screen-api-v1 3.1.0+9c82a79868
+	- tradingpost 21.10.1
+	- u_desert 2.0.2
+	- u_sea 1.2.4
+	- universal-graves 3.9.1+1.21.9
+	   |-- common-protection-api 1.0.0
+	   |-- predicate-api 0.6.1+1.21.9
+	   |-- server_translations_api 2.5.2+1.21.9-pre3
+	   \-- sgui 1.11.0+1.21.9
+	- universalenchants 21.10.1
+	- wabi_sabi_structures 3.0.4
+	- waystones 21.10.1
+	- weaponsexpanded 1.6.2
+	- xaerominimap 25.2.15
+	- xaeroworldmap 1.39.17
+	- yet_another_config_lib_v3 3.8.0+1.21.9-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+[04:08:28] [main/WARN]: launchTarget: SERVER. Crash Assistant is client only mod. Mod will do nothing!
+[04:08:29] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/GitHUDmsx/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[04:08:29] [main/INFO]: Compatibility level set to JAVA_17
+[04:08:29] [main/INFO]: Compatibility level set to JAVA_21
+[04:08:29] [main/WARN]: Reference map 'blastingraw.refmap.json' for blastingraw.mixins.json could not be read. If this is a development environment you can ignore this message
+[04:08:29] [main/WARN]: Reference map 'blastingraw.refmap.json' for blastingraw.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[04:08:29] [main/WARN]: Reference map 'combatnouveau.fabric.refmap.json' for combatnouveau.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[04:08:29] [main/WARN]: Reference map '[common]ctov-common-refmap.json' for ctov-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[04:08:29] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[04:08:29] [main/WARN]: Reference map 'forgeconfigapiport.fabric.refmap.json' for forgeconfigapiport.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[04:08:29] [main/WARN]: Reference map 'formationsnether.mixins.refmap.json' for formationsnether.mixins.json could not be read. If this is a development environment you can ignore this message
+[04:08:29] [main/WARN]: Reference map 'formationsoverworld.mixins.refmap.json' for formationsoverworld.mixins.json could not be read. If this is a development environment you can ignore this message
+[04:08:29] [main/WARN]: Reference map 'iteminteractions.fabric.refmap.json' for iteminteractions.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[04:08:29] [main/WARN]: Reference map 'leavesbegone.fabric.refmap.json' for leavesbegone.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[04:08:29] [main/INFO]: Loaded configuration file for Lithium: 163 options available, 0 override(s) found.
+[04:08:29] [main/WARN]: Reference map 'mixins.medieval_buildings.refmap.fabric.json' for mixins.medieval_buildings.fabric.json could not be read. If this is a development environment you can ignore this message
+[04:08:29] [main/WARN]: Reference map 'mixins.medieval_nether.refmap.fabric.json' for mixins.medieval_nether.fabric.json could not be read. If this is a development environment you can ignore this message
+[04:08:29] [main/WARN]: Reference map 'metalbundles.common.refmap.json' for metalbundles.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[04:08:29] [main/WARN]: Reference map 'metalbundles.fabric.refmap.json' for metalbundles.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[04:08:29] [main/WARN]: Reference map 'prickle.refmap.json' for prickle.mixins.json could not be read. If this is a development environment you can ignore this message
+[04:08:29] [main/WARN]: Reference map 'prickle.refmap.json' for prickle.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[04:08:29] [main/WARN]: Reference map 'tradingpost.fabric.refmap.json' for tradingpost.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[04:08:29] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[04:08:29] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[04:08:29] [main/WARN]: Error loading class: dev/arbor/extrasoundsnext/sounds/SoundManager (java.lang.ClassNotFoundException: dev/arbor/extrasoundsnext/sounds/SoundManager)
+[04:08:29] [main/WARN]: @Mixin target dev.arbor.extrasoundsnext.sounds.SoundManager was not found accessorify.mixins.json:compat.extrasounds.SoundManagerMixin from mod accessorify
+[04:08:30] [main/WARN]: Error loading class: moriyashiine/enchancement/common/util/EnchancementUtil (java.lang.ClassNotFoundException: moriyashiine/enchancement/common/util/EnchancementUtil)
+[04:08:30] [main/WARN]: Error loading class: net/minecraft/class_9934 (java.lang.ClassNotFoundException: net/minecraft/class_9934)
+[04:08:30] [main/WARN]: @Mixin target net.minecraft.class_9934 was not found farmersdelight.mixins.json:refabricated.GhostSlotsInvoker from mod farmersdelight
+[04:08:30] [main/WARN]: Error loading class: net/minecraft/class_12074 (java.lang.ClassNotFoundException: net/minecraft/class_12074)
+[04:08:30] [main/WARN]: @Mixin target net.minecraft.class_12074 was not found resourcefullib.mixins.json:BlockOutlineRenderStateMixin from mod resourcefullib
+[04:08:30] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
+[04:08:31] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[04:08:34] [main/WARN]: @Final field field_36535:Ljava/util/List; in diversity.mixins.json:general.enchantTableAcceptFurtherBookshelf.EnchantingTableBlockMixin from mod diversity should be final
+[04:08:41] [main/INFO]: Loaded config accessorify:config in 563ms
+[04:08:41] [main/INFO]: Enabling Achievement Optimizer
+[04:08:41] [main/INFO]: Initializing Everlasting Amber Dreams on Fabric...
+[04:08:41] [main/INFO]: Amber internal networking initialized
+[04:08:41] [main/INFO]: Initializing Asgard Shield Reloaded
+[04:08:41] [main/INFO]: Hello AlanHT520's Unified UI mod!
+[04:08:41] [main/INFO]: Biolith for Fabric is initializing...
+[04:08:41] [main/INFO]: Enabling Biolith's TerraBlender compatibility layer.
+[04:08:41] [main/INFO]: Constructing components for combatnouveau:common
+[04:08:41] [main/INFO]: Dispatching loading event for config combatnouveau-common.toml
+[04:08:42] [main/INFO]: [Diversity] Loading
+[04:08:42] [main/INFO]: [Diversity] Register commands...
+[04:08:42] [main/INFO]: [Diversity] Register events...
+[04:08:42] [main/INFO]: [Diversity] Init done
+[04:08:42] [main/INFO]: YAaargh!
+[04:08:42] [main/INFO]: [Faewulf's Lib] Initializing...
+[04:08:42] [main/INFO]: [Faewulf's Lib] Hello from Faewulf with <3
+[04:08:42] [main/INFO]: Loaded config farmersdelight-common.json
+[04:08:42] [main/INFO]: Deserializing FriendsAndFoesConfig from 'config/friendsandfoes.json'
+[04:08:42] [main/INFO]: Initialized Frostiful!
+[04:08:42] [main/INFO]: Constructing components for iteminteractions:common
+[04:08:43] [main/WARN]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
+[04:08:43] [main/INFO]: [KONKRETE] Loading v1.9.13 in server-side mode on FABRIC!
+[04:08:43] [main/INFO]: [KONKRETE] Server-side modules initialized and ready to use!
+[04:08:43] [main/INFO]: Constructing components for leavesbegone:common
+[04:08:43] [main/INFO]: Litemining, from poppies to deepslate.
+[04:08:43] [main/INFO]: Liteminer network initialized
+[04:08:43] [main/INFO]: Constructing components for metalbundles:common
+[04:08:43] [main/INFO]: Definitely not up to no good
+[04:08:43] [main/INFO]: Registering Mod Items for mutantszombies
+[04:08:43] [main/INFO]: Registering Sounds for mutantszombies
+[04:08:43] [main/INFO]: Loading Noisium.
+[04:08:43] [main/INFO]: Loaded Noisium config from resource
+[04:08:43] [main/INFO]: Noisium config: noiseChunkGenerator=true, generationShapeConfig=true, chunkSection=true, chainedBlockSource=true, useGuiGraphics=true
+[04:08:43] [main/INFO]: Loaded Fabric config from ./config/noisium.json
+[04:08:43] [main/INFO]: There is a 1% chance that instead of Frog, you get Froge!
+[04:08:43] [main/INFO]: I am quite particular about the effects I choose to add :3
+[04:08:43] [main/INFO]: Constructing components for puzzleslib:common
+[04:08:43] [main/INFO]: Config 'appearance.json' from type 'CLIENT' was skipped.
+[04:08:44] [main/INFO]: [ServerCore] Loaded V1.5.14+1.21.9!
+[04:08:44] [main/INFO]: Thermoo initialized
+[04:08:44] [main/INFO]: Constructing components for tradingpost:common
+[04:08:44] [main/INFO]: Constructing components for universalenchants:common
+[04:08:44] [main/INFO]: Registering Items for weaponsexpanded
+[04:08:44] [main/INFO]: Registering enchantment effects for weaponsexpanded
+[04:08:44] [main/INFO]: Registering Effects forweaponsexpanded
+[04:08:44] [main/INFO]: Download MuseSwipr on Steam!
+[04:08:44] [main/INFO]: Patched Thermoo for server-side with Polymer!
+[04:08:44] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[04:08:44] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[04:08:45] [main/ERROR]: Couldn't load mr_lukis_ancientcities pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[04:08:45] [main/ERROR]: Couldn't load mr_lukis_crazychambers pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[04:08:45] [main/ERROR]: Couldn't load mr_lukis_grandcapitals pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[04:08:45] [main/ERROR]: Couldn't load mr_lukis_ancientcities pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[04:08:45] [main/ERROR]: Couldn't load mr_lukis_crazychambers pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[04:08:45] [main/ERROR]: Couldn't load mr_lukis_grandcapitals pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[04:08:45] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[04:08:45] [main/ERROR]: Couldn't load mr_lukis_ancientcities pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[04:08:45] [main/ERROR]: Couldn't load mr_lukis_crazychambers pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[04:08:45] [main/ERROR]: Couldn't load mr_lukis_grandcapitals pack metadata: Pack declares support for version newer than 81, but is missing mandatory fields min_format and max_format
+[04:08:45] [main/INFO]: Data generation for dynamic pack resources provided by 'combatnouveau' took 460ms
+[04:08:46] [main/ERROR]: Couldn't load tag minecraft:enchantment_power_transmitter as it is missing following references: minecraft:chain (from diversity)
+[04:08:48] [Worker-Main-3/ERROR]: Couldn't parse data file 'mss:cathedral_common' from 'mss:loot_table/cathedral_common.json': DataResult.Error['Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain': net.minecraft.class_52@41dfa62b]
+[04:08:48] [Worker-Main-3/ERROR]: Couldn't parse data file 'mvs:cathedral_common' from 'mvs:loot_table/cathedral_common.json': DataResult.Error['Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain': net.minecraft.class_52@20461eb0]
+[04:08:48] [Worker-Main-3/ERROR]: Couldn't parse data file 'mss:cathedral_rare' from 'mss:loot_table/cathedral_rare.json': DataResult.Error['Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain': net.minecraft.class_52@77e40bc9]
+[04:08:48] [Worker-Main-3/ERROR]: Couldn't parse data file 'mvs:cathedral_rare' from 'mvs:loot_table/cathedral_rare.json': DataResult.Error['Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain': net.minecraft.class_52@6e115c23]
+[04:08:49] [Worker-Main-3/ERROR]: Couldn't parse data file 'formationsoverworld:stone_tower/smithing' from 'formationsoverworld:loot_table/stone_tower/smithing.json': DataResult.Error['Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain': net.minecraft.class_52@4877a553]
+[04:08:49] [Worker-Main-3/ERROR]: Couldn't parse data file 'formationsoverworld:witch_tower/smithing' from 'formationsoverworld:loot_table/witch_tower/smithing.json': DataResult.Error['Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: minecraft:chain': net.minecraft.class_52@5a0350e2]
+[04:08:49] [Worker-Main-3/INFO]: Registering Amber commands for Fabric
+[04:08:50] [main/INFO]: Loaded 2359 recipes
+[04:08:51] [main/INFO]: Loaded 3056 advancements
+[04:08:51] [main/INFO]: Loaded 27 entity animations
+[04:08:51] [main/INFO]: Loaded 1 moobloom variants
+[04:08:51] [main/INFO]: [Faewulf's Lib] Reloaded diversity config file.
+[04:08:51] [main/INFO]: [Faewulf's Lib] Total config reloaded: 1
+[04:08:51] [main/INFO]: Clearing Entity Type to Temperature Effect cache
+[04:08:51] [main/INFO]: Loaded 4 temperature effects
+[04:08:51] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 144 translation keys
+[04:08:51] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[04:08:51] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[04:08:51] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[04:08:51] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[04:08:51] [main/INFO]: Applied 2901 biome modifications to 190 of 198 new biomes in 245.5 ms
+[04:08:51] [Server thread/INFO]: Dispatching loading event for config combatnouveau-server.toml
+[04:08:51] [Server thread/INFO]: Dispatching loading event for config iteminteractions-server.toml
+[04:08:51] [Server thread/INFO]: Dispatching loading event for config leavesbegone-server.toml
+[04:08:51] [Server thread/INFO]: Dispatching loading event for config metalbundles-server.toml
+[04:08:51] [Server thread/INFO]: Dispatching loading event for config tradingpost-server.toml
+[04:08:51] [Server thread/INFO]: Dispatching loading event for config universalenchants-server.toml
+[04:08:51] [Server thread/INFO]: Config 'explorations.json' was successfully loaded.
+[04:08:51] [Server thread/INFO]: Added statues to vanilla villages
+[04:08:52] [Server thread/INFO]: Starting background profiler...
+[04:08:52] [Server thread/INFO]: Invalidated damage temperature effect registry cache
+[04:08:52] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[04:08:52] [Server thread/INFO]: Loading properties
+[04:08:52] [Server thread/INFO]: Default game type: SURVIVAL
+[04:08:52] [Server thread/INFO]: Generating keypair
+[04:08:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[04:08:52] [Server thread/INFO]: Using epoll channel type
+[04:08:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:08:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[04:08:52] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:08:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:08:52] [Server thread/INFO]: Preparing level "world"
+[04:08:53] [Server thread/INFO]: Loading 25 persistent chunks...
+[04:08:53] [Server thread/INFO]: Preparing spawn area: 28%
+[04:08:54] [Server thread/INFO]: Preparing spawn area: 28%
+[04:08:54] [Server thread/INFO]: Preparing spawn area: 28%
+[04:08:55] [Server thread/INFO]: Preparing spawn area: 28%
+[04:08:55] [Server thread/INFO]: Preparing spawn area: 28%
+[04:08:56] [Server thread/INFO]: Preparing spawn area: 28%
+[04:08:56] [Server thread/INFO]: Preparing spawn area: 28%
+[04:08:57] [Server thread/INFO]: Preparing spawn area: 28%
+[04:08:57] [Server thread/INFO]: Preparing spawn area: 28%
+[04:08:58] [Server thread/INFO]: Preparing spawn area: 28%
+[04:08:58] [Server thread/INFO]: Preparing spawn area: 28%
+[04:08:59] [Server thread/INFO]: Preparing spawn area: 28%
+[04:08:59] [Server thread/INFO]: Preparing spawn area: 28%
+[04:09:00] [Server thread/INFO]: Preparing spawn area: 28%
+[04:09:00] [Server thread/INFO]: Preparing spawn area: 28%
+[04:09:01] [Server thread/INFO]: Preparing spawn area: 28%
+[04:09:01] [Server thread/INFO]: Preparing spawn area: 28%
+[04:09:02] [Server thread/INFO]: Preparing spawn area: 28%
+[04:09:02] [Server thread/INFO]: Preparing spawn area: 28%
+[04:09:03] [Server thread/INFO]: Preparing spawn area: 28%
+[04:09:03] [Server thread/INFO]: Preparing spawn area: 28%
+[04:09:04] [Server thread/INFO]: Preparing spawn area: 28%
+[04:09:04] [Server thread/INFO]: Preparing spawn area: 28%
+[04:09:05] [Server thread/INFO]: Preparing spawn area: 28%
+[04:09:06] [Server thread/INFO]: Preparing spawn area: 28%
+[04:09:06] [Server thread/INFO]: Preparing spawn area: 28%
+[04:09:06] [Server thread/INFO]: Time elapsed: 12975 ms
+[04:09:06] [Server thread/INFO]: Done (13.942s)! For help, type "help"
+[04:09:06] [Server thread/INFO]: Refreshing friends cache
+[04:09:06] [Server thread/INFO]: Start loading plugin from Balm: net.blay09.mods.balm.fabric.compat.hudinfo.FabricJadeModCompat
+[04:09:06] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
+[04:09:06] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
+[04:09:06] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
+[04:09:06] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
+[04:09:06] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
+[04:09:06] [Server thread/INFO]: Start loading plugin from Polymer (Core): eu.pb4.polymer.core.impl.client.compat.JadeCompatibility
+[04:09:06] [Server thread/INFO]: Start loading plugin from Waystones: net.blay09.mods.waystones.compat.JadeIntegration
+[04:09:06] [Server thread/INFO]: Initialized AttributeFix. Took 48.78ms.
+[04:09:06] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[04:09:06] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)

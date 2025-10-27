@@ -1,0 +1,14 @@
+{
+	// If true, Blister Zombies will spawn naturally | default: true
+	"blisterZombiesSpawnNaturally": true,
+	// If true, Crawlers will spawn naturally | default: true
+	"crawlersSpawnNaturally": true,
+	// If true, Spitter Zombies will spawn naturally | default: true
+	"spitterZombiesSpawnNaturally": true,
+	// If true, Zombie Brutes will spawn naturally | default: true
+	"zombieBrutesSpawnNaturally": true,
+	// If true, Split Head Zombies will spawn naturally | default: true
+	"splitHeadZombiesSpawnNaturally": true,
+	// If true, Mutant Brutes will spawn naturally | default: true
+	"mutantBrutesSpawnNaturally": true
+}
