@@ -1,0 +1,67 @@
+{
+	"contentOptions": {
+		"validGliderSlots": [
+			"cape",
+			"back"
+		],
+		"allowGliderEquip": false,
+		"validTotemSlots": [
+			"charm"
+		],
+		"allowTotemEquip": false,
+		"validBannerSlots": [
+			"hat",
+			"cape"
+		],
+		"allowBannerEquip": true
+	},
+	"clientOptions": {
+		"equipControl": "MUST_NOT_CROUCH",
+		"forceNullRenderReplacement": false,
+		"disableEmptySlotScreenError": false,
+		"showCosmeticAccessories": true,
+		"disabledDefaultRenders": []
+	},
+	"screenOptions": {
+		"prioritizeCreativeScreen": false,
+		"menuButtonInjections": [
+			{
+				"menuType": "minecraft:creative_player_inventory",
+				"xOffset": 96,
+				"yOffset": 6
+			},
+			{
+				"menuType": "minecraft:player_inventory",
+				"xOffset": 66,
+				"yOffset": 8
+			},
+			{
+				"menuType": "minecraft:horse_inventory",
+				"xOffset": 69,
+				"yOffset": 18
+			}
+		],
+		"defaultValues": null,
+		"keybindIgnoresOtherTargets": false,
+		"backButtonClosesScreen": false,
+		"showUnusedSlots": false,
+		"allowSlotScrolling": true,
+		"isDarkMode": false,
+		"showEquippedStackSlotType": true,
+		"entityLooksAtMouseCursor": false,
+		"alwaysShowCraftingGrid": false,
+		"hoveredOptions": {
+			"brightenHovered": true,
+			"cycleBrightness": true,
+			"line": false,
+			"clickbait": false
+		},
+		"unHoveredOptions": {
+			"renderUnHovered": true,
+			"darkenUnHovered": true,
+			"darkenedBrightness": 0.5,
+			"darkenedOpacity": 1.0
+		}
+	},
+	"modifiers": []
+}

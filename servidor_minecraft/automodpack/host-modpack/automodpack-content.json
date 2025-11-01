@@ -1,0 +1,1251 @@
+{
+  "modpackName": "",
+  "automodpackVersion": "4.0.0-beta44",
+  "loader": "fabric",
+  "loaderVersion": "0.17.3",
+  "mcVersion": "1.21.10",
+  "list": [
+    {
+      "file": "/mods/HopoBetterUnderwaterRuins-[1.21.9-1.21.10]-1.2.5.jar",
+      "size": "732013",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "42957b7d360d132ada6489bd6aef72b15e886508",
+      "murmur": "2829420045"
+    },
+    {
+      "file": "/mods/AdditionalStructures-1.21.x-(v.5.1.3-fabric).jar",
+      "size": "1544463",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "fba2a311a5d9d3300a297ef79a1e9f7b7b1bd59f",
+      "murmur": "3052950434"
+    },
+    {
+      "file": "/mods/justzoom_fabric_2.1.2_MC_1.21.10.jar",
+      "size": "246921",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "ef9d1cffe56c401b4403268b368d3c9b3a8d6e21",
+      "murmur": "774205555"
+    },
+    {
+      "file": "/mods/enchdesc-fabric-1.21.10-21.10.1.jar",
+      "size": "82034",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "f030a2e8d1c71bfd4c59ef912a97424f4ed26251",
+      "murmur": "1715008142"
+    },
+    {
+      "file": "/mods/liteminer-fabric-1.21.10-1.4.1+1.21.10.jar",
+      "size": "70582",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "93d95755c4d7812f89c61e9ba43a7408d624e078",
+      "murmur": "3392349481"
+    },
+    {
+      "file": "/mods/HopoBetterMineshaft-[1.21.9-1.21.10]-1.3.4.jar",
+      "size": "4689397",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "db37dd9aa39cb6b3243403532e9a7e1e3404cbd6",
+      "murmur": "1349719653"
+    },
+    {
+      "file": "/mods/UniversalEnchants-v21.10.1+mc1.21.10-Fabric.jar",
+      "size": "102748",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "6b36199d3a40b07e2a21248e101f506d674de26e",
+      "murmur": "1484467403"
+    },
+    {
+      "file": "/mods/lukis-grand-capitals-1.1.2.jar",
+      "size": "11217284",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "bdf6cf6338e26825324da4ec2cc380b9f485a4a2",
+      "murmur": "3780564965"
+    },
+    {
+      "file": "/mods/resourceconfigapi-fabric-1.21.10-3.8.1.jar",
+      "size": "266611",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "86dfeb65b1c3275f798c0b4251980b92a3afc9e2",
+      "murmur": "316231982"
+    },
+    {
+      "file": "/mods/deimos-1.21.10-fabric-2.4.jar",
+      "size": "49743",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "4fd8ff7d1424fbbfc7f0cf72e69c0cc8390b4e2b",
+      "murmur": "3877213990"
+    },
+    {
+      "file": "/mods/weaponsexpanded_1.21.9_1.6.3_fabric.jar",
+      "size": "173108",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "932aa59f0e76a9f07a90add158b6bdef8ccbab5e",
+      "murmur": "2521274597"
+    },
+    {
+      "file": "/mods/mes-1.4.7-1.21.9-1.21.10-fabric.jar",
+      "size": "2720535",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "d616d1793e1ede77bb3afa88e7095dad458b1230",
+      "murmur": "1407814793"
+    },
+    {
+      "file": "/mods/graves-3.9.1+1.21.9.jar",
+      "size": "1870589",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "d89daa799b4f3d0b83debf67a1acd2483c54dd7b",
+      "murmur": "2225091432"
+    },
+    {
+      "file": "/mods/friendsandfoes-fabric-4.0.15+mc1.21.10.jar",
+      "size": "4163682",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "c7eb78a614720b5f653b71ff0f9654cbe2a9db8f",
+      "murmur": "1839814082"
+    },
+    {
+      "file": "/mods/DnT-ocean-monument-overhaul-v2.1 [Fabric].jar",
+      "size": "3258785",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "a04d456c6ee8bbd3db2ecaa9d81af80974c74f8c",
+      "murmur": "2940343623"
+    },
+    {
+      "file": "/mods/DnT-pillager-outpost-overhaul-v3.3 [Fabric].jar",
+      "size": "451522",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "6c42574c289aa443493e3b7da77c33b5cc495071",
+      "murmur": "3335891933"
+    },
+    {
+      "file": "/mods/cloth-config-20.0.149-fabric.jar",
+      "size": "1150288",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "c86e380bdac24e4ecdd148558e9d4ddf32c86059",
+      "murmur": "1501826003"
+    },
+    {
+      "file": "/mods/sounds-2.4.17+edge+1.21.9-fabric.jar",
+      "size": "8123999",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "6cbbc4e5e7e49a2e57f218f3279f80c13e0d4585",
+      "murmur": "3198579169"
+    },
+    {
+      "file": "/mods/servercore-fabric-1.5.14+1.21.9.jar",
+      "size": "934390",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "6a732327f7855aa64f820942031d6e4adeba68a6",
+      "murmur": "3417754780"
+    },
+    {
+      "file": "/mods/prickle-fabric-1.21.10-21.10.2.jar",
+      "size": "87255",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "2e0fc39bc1aa65a1a609d1bc9d03965078ee13cb",
+      "murmur": "1307082141"
+    },
+    {
+      "file": "/mods/rsls-1.1.10.jar",
+      "size": "53332",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "d945e6cd815e1c5e3a7946e281cec0b3bd42decd",
+      "murmur": "4154587328"
+    },
+    {
+      "file": "/mods/placeholder-api-2.8.1+1.21.10.jar",
+      "size": "267926",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "4950367323147265b272ad2156bf1a343db3f64c",
+      "murmur": "2695672904"
+    },
+    {
+      "file": "/mods/minihud-fabric-1.21.10-0.37.2.jar",
+      "size": "788508",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "43dbfa6594a6ed85731f2ef9ffc43094d4607f70",
+      "murmur": "822820626"
+    },
+    {
+      "file": "/mods/dungeons-and-taverns-v5.0.2 [Fabric].jar",
+      "size": "38695058",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "f7befd20f0c6709e0d13f290ff28ceed640fb56a",
+      "murmur": "3419068150"
+    },
+    {
+      "file": "/mods/resourcelibrary-fabric-1.21.10-2.9.2.jar",
+      "size": "202114",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "57ac8edd11857add1cd1fce9b767a2dc5e07baed",
+      "murmur": "2037783620"
+    },
+    {
+      "file": "/mods/cristellib-fabric-1.21.10-3.0.3.jar",
+      "size": "553350",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "59fb44a75ac6db433b9f75a0ba33745ab59e1e59",
+      "murmur": "529775009"
+    },
+    {
+      "file": "/mods/HopoBetterRuinedPortals-[1.21.9-1.21.10]-1.4.8.jar",
+      "size": "472908",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "55023959b884c9c6fc60f57aa37cc7df31ee87bc",
+      "murmur": "388783224"
+    },
+    {
+      "file": "/mods/vanilla-refresh-1.4.28b.jar",
+      "size": "1226610",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "9d25f8ec88eb39a2c997f86277fe2f90ec3daaea",
+      "murmur": "865176341"
+    },
+    {
+      "file": "/mods/CrashAssistant-fabric-1.21.5-1.21.10-1.10.18.jar",
+      "size": "1020613",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "690584d072193f475a1e62cd1ae29ee52dbf8ba4",
+      "murmur": "3917948218"
+    },
+    {
+      "file": "/mods/shulkerboxtooltip-fabric-5.2.11+1.21.9.jar",
+      "size": "389372",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "322d8470e043a55dd153321a221fe1327f143f55",
+      "murmur": "1664226737"
+    },
+    {
+      "file": "/mods/TerraBlender-fabric-1.21.10-21.10.0.0.jar",
+      "size": "342335",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "5221af8ef3fa779197c59eb6b25b257416777aab",
+      "murmur": "722730382"
+    },
+    {
+      "file": "/mods/mru-1.0.24+edge+1.21.10-fabric.jar",
+      "size": "94710",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "10bba879cdd01ed422a77acee2aec690679fb8b7",
+      "murmur": "1000496021"
+    },
+    {
+      "file": "/mods/lukis-crazy-chambers-1.0.2.jar",
+      "size": "2177448",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "13dd6ca774c58b4ecca908b84af37e329cc2cb11",
+      "murmur": "3961289239"
+    },
+    {
+      "file": "/mods/Clumps-fabric-1.21.10-28.0.0.1.jar",
+      "size": "21121",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "8f166307be94c1df0c17fa59729c1a717512c00e",
+      "murmur": "309385598"
+    },
+    {
+      "file": "/mods/DnT-desert-temple-overhaul-v2.1 [Fabric].jar",
+      "size": "408745",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "5fb528acb8a524ed58b2ea096aff28db5b594a66",
+      "murmur": "3584918823"
+    },
+    {
+      "file": "/mods/resource_backpacks-fabric-1.21.10-1.3.0.jar",
+      "size": "388304",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "88750979184b71cbe90afeaed1f740440961cb3d",
+      "murmur": "3560503047"
+    },
+    {
+      "file": "/mods/medieval_buildings_nether_edition-1.21.9-1.0.1-fabric.jar",
+      "size": "693296",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "4bb02197bcc1c855199bc5756b9bd3ea69db566c",
+      "murmur": "1484830505"
+    },
+    {
+      "file": "/mods/Wabi-Sabi Structures 3.0.4-1.21.9 Fabric.jar",
+      "size": "1885406",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "741f275008d415913058091fb7da8af61b1f88cc",
+      "murmur": "82887386"
+    },
+    {
+      "file": "/mods/waystones-fabric-1.21.10-21.10.3.jar",
+      "size": "921502",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "350e6d6e824de08bf1a4c90372139d4b4d471b15",
+      "murmur": "238145524"
+    },
+    {
+      "file": "/mods/XaeroPlus-2.28.8+fabric-1.21.10-WM1.39.17-MM25.2.15.jar",
+      "size": "7779427",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "9fa215bab4fbebd1b3c71a29797c5f1444fa598c",
+      "murmur": "3016071317"
+    },
+    {
+      "file": "/mods/particular-1.21.10-Fabric-1.3.1.jar",
+      "size": "258438",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "67e091a739e98133c22dc7702909fd679a8f73c7",
+      "murmur": "1611471840"
+    },
+    {
+      "file": "/mods/DnT-jungle-temple-overhaul-v2.1 [Fabric].jar",
+      "size": "294337",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "fe0fbefce4fbbe01327e33c930bf6c8be6ad444e",
+      "murmur": "1891715213"
+    },
+    {
+      "file": "/mods/malilib-fabric-1.21.10-0.26.3.jar",
+      "size": "1467389",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "11488594330f0e83fa4368739e4bbdb5ba792baa",
+      "murmur": "2455024816"
+    },
+    {
+      "file": "/mods/Explorify v1.6.4 f15-88.mod.jar",
+      "size": "951495",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "5a9b99242bdb9437396f5a3c78decc567adab6a5",
+      "murmur": "147065871"
+    },
+    {
+      "file": "/mods/ImmediatelyFast-Fabric-1.13.2+1.21.10.jar",
+      "size": "196440",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "e3f487736064ccd6c94e110cbaa057cf72eea2aa",
+      "murmur": "219338081"
+    },
+    {
+      "file": "/mods/u_desert-2.0.2+mc1.21-1.21.10.jar",
+      "size": "503019",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "c853f9968b999baa757f8fc42200e7079c7a68cd",
+      "murmur": "1448501182"
+    },
+    {
+      "file": "/mods/spark-1.10.152-fabric.jar",
+      "size": "3829180",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "85ae54dace1d468d8cbcfac88bb7c31ff7852530",
+      "murmur": "1271037216"
+    },
+    {
+      "file": "/mods/Chunky-Fabric-1.4.51.jar",
+      "size": "355804",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "de52d424bdbd4d68e06b79306e0a1199db2a7b03",
+      "murmur": "270441842"
+    },
+    {
+      "file": "/mods/amber-fabric-8.0.0+1.21.10.jar",
+      "size": "216457",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "dfdaf68a8a0d6aed7a9fd5fee99a3c273468d1e6",
+      "murmur": "3314280738"
+    },
+    {
+      "file": "/mods/MutantsZombies-1.1.0-Fabric-mc1.21.9.jar",
+      "size": "1506225",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "f2bbb56fb9ec0434bd2792a3d9da6ce0e549d32d",
+      "murmur": "2669125650"
+    },
+    {
+      "file": "/mods/yet_another_config_lib_v3-3.8.0+1.21.9-fabric.jar",
+      "size": "1126346",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "9e25b9aa5118dc77d6ec1192df0c1bb237f7e9d1",
+      "murmur": "3675868067"
+    },
+    {
+      "file": "/mods/MouseTweaks-fabric-mc1.21.9-2.29.jar",
+      "size": "76252",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "e6816dd7a2f61deca930c6787a04b74afb91249f",
+      "murmur": "3811192432"
+    },
+    {
+      "file": "/mods/ancient-artifacts-2-2.5.3a.jar",
+      "size": "70301273",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "66070d2e7f69e17da966373d4fa267e59d62de6a",
+      "murmur": "3094683346"
+    },
+    {
+      "file": "/mods/fzzy_config-0.7.2+1.21.9.jar",
+      "size": "2269878",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "8058365ab417ac29cde24bb8ed7579ad85539beb",
+      "murmur": "3899042086"
+    },
+    {
+      "file": "/mods/MetalBundles-v21.10.0+mc1.21.10-Fabric.jar",
+      "size": "495716",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "b4fefbf6c5d09072ee0be892ce84bd127006ead8",
+      "murmur": "4012212281"
+    },
+    {
+      "file": "/mods/particlerain-4.0.0-beta.3+1.21.9-fabric.jar",
+      "size": "591623",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "a502e12051a3c225331e13a7f9ba7e4d9c832084",
+      "murmur": "1622755147"
+    },
+    {
+      "file": "/mods/DnT-stronghold-overhaul-v2.3.2 [Fabric].jar",
+      "size": "3229419",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "7800ed52f0b84ae56ea5a9ce131bad7e00eec5d7",
+      "murmur": "2170387490"
+    },
+    {
+      "file": "/mods/fabric-api-0.136.0+1.21.10.jar",
+      "size": "2321305",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "2eadebc564b8becce26215c17c6965371a2719d7",
+      "murmur": "354110113"
+    },
+    {
+      "file": "/mods/MoogsVoyagerStructures-1.21-5.0.1.jar",
+      "size": "2674871",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "2c7e00779082b283af4146ecd9b9fe9ff254d533",
+      "murmur": "641178734"
+    },
+    {
+      "file": "/mods/accessorify-2.3.3+1.21.10.jar",
+      "size": "278464",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "61618bbfd1b822d64c1fea3a336a1469cc4eb1b1",
+      "murmur": "1600951369"
+    },
+    {
+      "file": "/mods/ResourcefulConfig-fabric-1.21.9-3.9.1.jar",
+      "size": "411766",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "061e18af6635fa513bb44e9c378239d570487327",
+      "murmur": "2547244524"
+    },
+    {
+      "file": "/mods/refurbished_furniture-fabric-1.21.10-1.0.20.jar",
+      "size": "7176121",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "6747fd49d1e062a6b45831a0b1f54367c153f128",
+      "murmur": "802793434"
+    },
+    {
+      "file": "/mods/accessories-fabric-1.4.0-beta+1.21.10.jar",
+      "size": "1589978",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "83a23b3f6bf83edd32cc0c26d7d53ff510997795",
+      "murmur": "4074877801"
+    },
+    {
+      "file": "/mods/lithium-fabric-0.20.0+mc1.21.10.jar",
+      "size": "830020",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "6f828c09ad43641bed3438e7ea6a4ab313f78d40",
+      "murmur": "2274108271"
+    },
+    {
+      "file": "/mods/sodium-fabric-0.7.2+mc1.21.10.jar",
+      "size": "1675639",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "3ade491ca5fc3074d332ff8eba2dbf0e294cc04e",
+      "murmur": "1174159018"
+    },
+    {
+      "file": "/mods/sound-physics-remastered-fabric-1.21.10-1.5.1.jar",
+      "size": "206479",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "d769c66cfc403d2efc25a25867e68e923bdb2e42",
+      "murmur": "2665754672"
+    },
+    {
+      "file": "/mods/adorabuild-structures-2.10.1-fabric-1.21.10.jar",
+      "size": "674649",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "504bc5fb07e2152ceaf1ae1a6200070bcf066fad",
+      "murmur": "2819917496"
+    },
+    {
+      "file": "/mods/attributefix-fabric-1.21.10-21.10.2.jar",
+      "size": "21874",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "8004184c06c154690166c1a1674c72ea354c6c9b",
+      "murmur": "4093757883"
+    },
+    {
+      "file": "/mods/promenade-5.3.0.jar",
+      "size": "4772864",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "80a1414ec2a7aacdbe463c73a8284303dba3a9f5",
+      "murmur": "964502404"
+    },
+    {
+      "file": "/mods/Jade-1.21.9-Fabric-20.0.5.jar",
+      "size": "921951",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "1007888435ef4ce9334798217634a6a03dac1eaf",
+      "murmur": "678490130"
+    },
+    {
+      "file": "/mods/LeavesBeGone-v21.10.0+mc1.21.10-Fabric.jar",
+      "size": "41988",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "efd178b81173e13b61caa4af5fc05160ffdb55fd",
+      "murmur": "1758858905"
+    },
+    {
+      "file": "/mods/owo-lib-0.12.24+1.21.9.jar",
+      "size": "1241170",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "282984b71f5c2b6ff0af892ab831221a642dc0c3",
+      "murmur": "3794414687"
+    },
+    {
+      "file": "/mods/noisium-fabric-2.8.1+mc1.21.10.jar",
+      "size": "225285",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "80fd13c42fda886bdbd8a8e549b244a055aaed6d",
+      "murmur": "3800016532"
+    },
+    {
+      "file": "/mods/balm-fabric-1.21.10-21.10.6.jar",
+      "size": "528939",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "ab8ff5ad947dc6e0f7cdef533387e3cc41e83c02",
+      "murmur": "793992077"
+    },
+    {
+      "file": "/mods/blastingraw-1.21.10-fabric-3.2.jar",
+      "size": "219001",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "fcbea906b818795b59d40f703e5c8c11afd510d3",
+      "murmur": "562332953"
+    },
+    {
+      "file": "/mods/DungeonsAriseSevenSeas-1.21.x-1.0.4-fabric.jar",
+      "size": "250298",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "6eb17659981d37106c84149643c5b10073d220d8",
+      "murmur": "4151983111"
+    },
+    {
+      "file": "/mods/TradingPost-v21.10.1+mc1.21.10-Fabric.jar",
+      "size": "103831",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "f8532e5f9fe70281eabd8c15b3cd1620e43c93e5",
+      "murmur": "3750398745"
+    },
+    {
+      "file": "/mods/XaerosWorldMap_1.39.17_Fabric_1.21.9.jar",
+      "size": "996243",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "2ef7af0b6edb04899189e8d0728f370620105132",
+      "murmur": "3204156001"
+    },
+    {
+      "file": "/mods/cardinal-components-api-7.2.0.jar",
+      "size": "235825",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "094b43bd5faa00c1872659eee0dbc8002607496c",
+      "murmur": "2405552078"
+    },
+    {
+      "file": "/mods/coolrain-1.3.0-1.21.10.jar",
+      "size": "4150130",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "9c310e1482b014a1cdf616eaa8dd87ae12d757f2",
+      "murmur": "1934429448"
+    },
+    {
+      "file": "/mods/inventorysorter-fabric-2.1.0+mc1.21.9.jar",
+      "size": "3661067",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "2de2b2441abcab9f48261db0ecd6f7e3ee7b922f",
+      "murmur": "1382915569"
+    },
+    {
+      "file": "/mods/DnT-ancient-city-overhaul-v3.2 [Fabric].jar",
+      "size": "1086131",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "80ca90d380cee43e441bcd918fe0c2ccf2c2c1d0",
+      "murmur": "3182776533"
+    },
+    {
+      "file": "/mods/lukis-ancient-cities-1.1.jar",
+      "size": "1585189",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "2ab5748e9b8c472c7487de13b6807373ab8dbe17",
+      "murmur": "2304181532"
+    },
+    {
+      "file": "/mods/Incendium_1.21.x_v5.4.9.jar",
+      "size": "4161274",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "7baa7e3d512a99c330ebd709899ee384a2a014ed",
+      "murmur": "2419424208"
+    },
+    {
+      "file": "/mods/explorations-fabric-1.21.10-1.6.3.jar",
+      "size": "221474",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "0ccb9214e613d9dd23d26360d656bd2e2f0ea1e2",
+      "murmur": "778331859"
+    },
+    {
+      "file": "/mods/[fabric]ctov-3.5.10a.jar",
+      "size": "7050044",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "056b225b9dd49c097810a3474e3262aaa0bc02c3",
+      "murmur": "195547353"
+    },
+    {
+      "file": "/mods/macevariants-fabric-1.21.6-1.0.8a.jar",
+      "size": "47652",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "b82865bc88af007d177e2b8ac3bd9cb6e0cc1741",
+      "murmur": "3580049825"
+    },
+    {
+      "file": "/mods/modmenu-16.0.0-rc.1.jar",
+      "size": "1077403",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "c927187d11cb6db2d3daad2a24899f1a70a1618f",
+      "murmur": "1711390982"
+    },
+    {
+      "file": "/mods/BadOptimizations-2.3.4-1.21.10.jar",
+      "size": "270590",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "093c9ba175ad6a179987acdfe37765307946522d",
+      "murmur": "137797460"
+    },
+    {
+      "file": "/mods/framework-fabric-1.21.10-0.13.1.jar",
+      "size": "1615149",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "52db86a777ae2517c997eeb2c8ce1a1c27d00b60",
+      "murmur": "207966904"
+    },
+    {
+      "file": "/mods/Terralith_1.21.x_v2.5.13.jar",
+      "size": "2896128",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "61d584ae3ae0cc99964ade279036328da728d20b",
+      "murmur": "3083040820"
+    },
+    {
+      "file": "/mods/konkrete_fabric_1.9.13_MC_1.21.10.jar",
+      "size": "669041",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "b6d89fe7f542c7f05bb6a7a4c6573225f255a284",
+      "murmur": "26382005"
+    },
+    {
+      "file": "/mods/u_sea-1.2.4+mc1.19-1.21.10.jar",
+      "size": "556459",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "166a362f3a59393955c07626e671985aae757450",
+      "murmur": "1096692133"
+    },
+    {
+      "file": "/mods/DnT-woodland-mansion-overhaul-v2 [Fabric].jar",
+      "size": "5864961",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "2fc470f4ffbd491a749053935174316e3af8f6f5",
+      "murmur": "1957521679"
+    },
+    {
+      "file": "/mods/formations-1.0.4-fabric-mc1.21.6.jar",
+      "size": "288485",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "76adb926336550812b62ac1f86f4deaa48539442",
+      "murmur": "2736312926"
+    },
+    {
+      "file": "/mods/AchievementOptimizer-fabric-1.21.10-2.1.1.jar",
+      "size": "17237",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "f2382015f661c785f15b5d1b9c1200676f50d9b9",
+      "murmur": "3789420557"
+    },
+    {
+      "file": "/mods/darkquesting-fabric-1.21-1.3.0a.jar",
+      "size": "102992",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "57934b6c136eb85970773f9d747b32f26e19a8e0",
+      "murmur": "1151969151"
+    },
+    {
+      "file": "/mods/PuzzlesLib-v21.10.5+mc1.21.10-Fabric.jar",
+      "size": "1077950",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "c67b96b2215b1e236261c09cd7bd0a8e964c89f1",
+      "murmur": "1117876696"
+    },
+    {
+      "file": "/mods/appleskin-fabric-mc1.21.9-3.0.7.jar",
+      "size": "1094185",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "a95d28e65583081b13e3c980690ee54042a5ed74",
+      "murmur": "467116622"
+    },
+    {
+      "file": "/mods/FarmersDelight-1.21.10-3.3.3+refabricated.jar",
+      "size": "3199405",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "44ae80c13d4b8a6bfd91afef484423a0f26bfc23",
+      "murmur": "3822418053"
+    },
+    {
+      "file": "/mods/MoogsTemplesReimagined-1.21-1.0.2.jar",
+      "size": "7657986",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "349e5f15cdabf58780de957c5d4c6d52ae5102c3",
+      "murmur": "2794281755"
+    },
+    {
+      "file": "/mods/asr-fabric-3.0.0.jar",
+      "size": "233306",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "13d296b7ba159028b16c39834612b4d9f1e7e161",
+      "murmur": "789088759"
+    },
+    {
+      "file": "/mods/medieval_buildings_end_edition-1.21.X-1.0.5-fabric.jar",
+      "size": "598678",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "f860cdd59f01c2bcba0fdda094117a2021ff610a",
+      "murmur": "334047020"
+    },
+    {
+      "file": "/mods/medieval_buildings-1.21.X-1.1.2-fabric.jar",
+      "size": "373541",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "0e2ca859cbf127bbdd359594ea6fd29eaae5dba0",
+      "murmur": "2692600743"
+    },
+    {
+      "file": "/mods/Structory_Towers_1.21.x_v1.0.14.jar",
+      "size": "486413",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "84873f6aef39fa8bea7416d74ac5e13830859674",
+      "murmur": "2801445013"
+    },
+    {
+      "file": "/mods/polymer-bundled-0.14.3+1.21.10.jar",
+      "size": "1484064",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "99aef697ef596071fa267f768df06fc92c71acdf",
+      "murmur": "1953375716"
+    },
+    {
+      "file": "/mods/moogs_structure_lib-1.0.2-1.21.5-1.21.10-fabric.jar",
+      "size": "6104105",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "7d93d7650cc66d730b423002cd5b297b15f59cbf",
+      "murmur": "3903650032"
+    },
+    {
+      "file": "/mods/modelfix-1.21.10-1.12-fabric.jar",
+      "size": "66424",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "6902ab0bc41ee2db516b61667a8998dc4045dc2f",
+      "murmur": "1437426724"
+    },
+    {
+      "file": "/mods/frostiful-2.2.11+1.21.10.jar",
+      "size": "2089689",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "a5312b7a9ca6539a0c84fc439b20f41a066d147a",
+      "murmur": "2453397949"
+    },
+    {
+      "file": "/mods/MoogsNetherStructures-1.21-2.0.0.jar",
+      "size": "1322851",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "5253e5cdcd267162618abddbad6e1b8434a23414",
+      "murmur": "2473813403"
+    },
+    {
+      "file": "/mods/architectury-18.0.6-fabric.jar",
+      "size": "575958",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "d768e81f930c9dba397ecc79557fe963177397d2",
+      "murmur": "1554798729"
+    },
+    {
+      "file": "/mods/fabric-language-kotlin-1.13.7+kotlin.2.2.21.jar",
+      "size": "7479608",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "ab71e8daf9a2d529204b5c28b3801713d22f3d46",
+      "murmur": "577695437"
+    },
+    {
+      "file": "/mods/formationsoverworld-1.0.5-mc1.21+.jar",
+      "size": "873370",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "edbc169c78f9f1cdf5233e996f12b21e7e1cdf18",
+      "murmur": "674970075"
+    },
+    {
+      "file": "/mods/t_and_t-fabric-neoforge-1.13.7.jar",
+      "size": "3641545",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "0882937ba1fe489888877c2971e14980b9e73193",
+      "murmur": "2739028876"
+    },
+    {
+      "file": "/mods/ResourcefulLib-fabric-1.21.9-3.9.1.jar",
+      "size": "461096",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "266230c33419735287dc667a2ca0c7ac604a8853",
+      "murmur": "144489325"
+    },
+    {
+      "file": "/mods/MoogsSoaringStructures-1.21-2.0.0.jar",
+      "size": "3052534",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "2bd48d0ffa02cf251c7c5f1ad2ddd4b0695ea10c",
+      "murmur": "482731261"
+    },
+    {
+      "file": "/mods/entity_model_features_1.21.9-fabric-3.0.4.jar",
+      "size": "473616",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "565a7cb666a2fa2835868fa39f393c75182fab26",
+      "murmur": "3994441090"
+    },
+    {
+      "file": "/mods/soundsbegone-fabric-1.4.8+mc1.21.9.jar",
+      "size": "6145730",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "00afe8b9182d00388c816d8a6d04583216287ab4",
+      "murmur": "3424464859"
+    },
+    {
+      "file": "/mods/midnightlib-1.8.3-fabric+1.21.9.jar",
+      "size": "63267",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "4264a1296347bf8750676b4b6725afb0db0b4c64",
+      "murmur": "464216805"
+    },
+    {
+      "file": "/mods/entity_texture_features-7.0.4-1.21.9-fabric.jar",
+      "size": "697956",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "07c402a7f6db6d6cfcddec3d765319813b8544ca",
+      "murmur": "168084543"
+    },
+    {
+      "file": "/mods/Alan's Unified UI v-0.2.1.jar",
+      "size": "1902428",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "6161a6be338cc1f8a20867b98ace48cb9f28f4ca",
+      "murmur": "3904693852"
+    },
+    {
+      "file": "/mods/ForgeConfigAPIPort-v21.10.0+mc1.21.10-Fabric.jar",
+      "size": "615117",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "8e28ea860effcf37b81a99b352d0d2daf58c31af",
+      "murmur": "193778207"
+    },
+    {
+      "file": "/mods/lambdynamiclights-4.8.5+1.21.10.jar",
+      "size": "2153348",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "98e6eea9a15f07347ccc2f84c42883d684810163",
+      "murmur": "234360520"
+    },
+    {
+      "file": "/mods/formationsnether-1.0.5-mc1.21+.jar",
+      "size": "942046",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "12b69c1cd22bbbe8c5888a030bef791b992b0d39",
+      "murmur": "3858853258"
+    },
+    {
+      "file": "/mods/advancednetherite-fabric-2.3.1-1.21.10.jar",
+      "size": "543576",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "8b63329b296f5e47201df82538e485bc250bdb33",
+      "murmur": "790100173"
+    },
+    {
+      "file": "/mods/DnT-nether-fortress-overhaul-v3.1 [Fabric].jar",
+      "size": "567076",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "9b6bb22714dc19665ed4a85360a06b346e02fa00",
+      "murmur": "3643254680"
+    },
+    {
+      "file": "/mods/litematica-fabric-1.21.10-0.24.3.jar",
+      "size": "1566840",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "45f850b6915e7f32a74fea749dbeae062f6d657c",
+      "murmur": "3363632018"
+    },
+    {
+      "file": "/mods/cropsloverain-3.1.2.jar",
+      "size": "33245",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "6b8aa930c4769d56c8a18b50a825fbeaaab1ffe3",
+      "murmur": "1427091758"
+    },
+    {
+      "file": "/mods/trade-cycling-fabric-1.21.10-1.0.19.jar",
+      "size": "532970",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "c23cfbd822fcd4c166af184ff1c70f12a2f19b7a",
+      "murmur": "3427771475"
+    },
+    {
+      "file": "/mods/thermoo-8.0.2.jar",
+      "size": "244188",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "5fcab8983c8417be0ec8bf4338292f7a0c3bba73",
+      "murmur": "2520299220"
+    },
+    {
+      "file": "/mods/lithostitched-1.5.1-fabric-1.21.9.jar",
+      "size": "545450",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "3c2a6f884b9858f516234d4969d459f2b9555c4b",
+      "murmur": "449726365"
+    },
+    {
+      "file": "/mods/Stellarity-5.1.2.jar",
+      "size": "8118751",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "ff39035b70829811713c048a18b0199f3d94c774",
+      "murmur": "306780218"
+    },
+    {
+      "file": "/mods/repurposed_structures-7.5.22+1.21.9-fabric.jar",
+      "size": "8199047",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "1f3b8f5d6c9b647ab152133f1e1e7e5825deed69",
+      "murmur": "3482274824"
+    },
+    {
+      "file": "/mods/diversity-fabric-1.21.10-2.5.4.jar",
+      "size": "644331",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "47c2f27a45b1fac18ab05df261f78acdab632225",
+      "murmur": "2580639816"
+    },
+    {
+      "file": "/mods/DnT-swamp-hut-overhaul-v2.3 [Fabric].jar",
+      "size": "118784",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "ab0456a73cc3ddfdeeab1d4eb27b45c9ef5cafad",
+      "murmur": "103019483"
+    },
+    {
+      "file": "/mods/Structory_1.21.x_v1.3.12.jar",
+      "size": "1260796",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "1978f613465c86c0d40f5cbfeeb8ab80407e21fe",
+      "murmur": "1106622067"
+    },
+    {
+      "file": "/mods/Xaeros_Minimap_25.2.15_Fabric_1.21.9.jar",
+      "size": "1695560",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "a775d65bd89004839caf7d6e6f49b9ab1def2458",
+      "murmur": "3418055776"
+    },
+    {
+      "file": "/mods/faewulf_lib-fabric-1.21.10-1.3.2.jar",
+      "size": "532801",
+      "type": "mod",
+      "editable": false,
+      "forceCopy": false,
+      "sha1": "e4ce0eb8a36406c9fc3f5f84d91e55dca9f628b3",
+      "murmur": "1378729372"
+    }
+  ]
+}
